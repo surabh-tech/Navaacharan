@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
                 <a class="navbar-brand" href="index.php">
-                    <img src="images/demo-startup-logo-white.png" data-at2x="images/demo-startup-logo-white@2x.png" alt="" class="default-logo">
+                <img src="images/labs/name.png" alt="Logo" class="" width="200" height="600">
                     <img src="images/demo-startup-logo-black.png" data-at2x="images/demo-startup-logo-black@2x.png" alt="" class="alt-logo">
                     <img src="images/demo-startup-logo-black.png" data-at2x="images/demo-startup-logo-black@2x.png" alt="" class="mobile-logo"> 
                 </a>

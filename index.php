@@ -6,103 +6,8 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start section -->
-        <section class="p-0 bg-dark-gray">
-    <div class="swiper lg-no-parallax full-screen md-h-600px sm-h-500px swiper-light-pagination ipad-top-space-margin magic-cursor" data-slider-options='{ "slidesPerView": 1, "loop": true, "parallax": true, "speed": 1200, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "pagination": { "el": ".swiper-pagination-bullets", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
-        <div class="swiper-wrapper">
-            <!-- start slider item -->
-            <div class="swiper-slide overflow-hidden">
-                <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
-                    <div class="opacity-light bg-gradient-black-green"></div>
-                    <div class="container h-100" data-swiper-parallax="-300">
-                        <div class="row align-items-center justify-content-center h-100 text-center">
-                            <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
-                                <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Innovative IT Solutions for All</span></span>
-                                <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Empowering Your Digital Transformation"] }'></span>
-                                <div data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 1000, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                    <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
-                                        <span> 
-                                            <span class="btn-text">Learn More</span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                        </span>
-                                    </a>
-                                    <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
-                                        <span>
-                                            <span class="btn-text">Our Services</span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                        </span> 
-                                    </a>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>   
-                </div>
-            </div>
-            <!-- end slider item -->
-            <!-- start slider item -->
-            <div class="swiper-slide overflow-hidden">
-                <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
-                    <div class="opacity-light bg-gradient-black-green"></div>
-                    <div class="container h-100" data-swiper-parallax="-300">
-                        <div class="row align-items-center justify-content-center h-100 text-center">
-                            <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
-                                <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Research and Development Excellence</span></span>
-                                <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Driving Innovation Forward"] }'></span>
-                                <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                    <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
-                                        <span> 
-                                            <span class="btn-text">Learn More</span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                        </span>
-                                    </a>
-                                    <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
-                                        <span>
-                                            <span class="btn-text">Our Services</span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                        </span> 
-                                    </a>
-                                </span>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end slider item -->
-            <!-- start slider item -->
-            <div class="swiper-slide overflow-hidden">
-                <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
-                    <div class="opacity-light bg-gradient-black-green"></div>
-                    <div class="container h-100" data-swiper-parallax="-300">
-                        <div class="row align-items-center justify-content-center h-100 text-center">
-                            <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
-                                <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Cutting-edge Solutions for the Future</span></span>
-                                <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Transforming Ideas into Reality"] }'></span>
-                                <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                    <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
-                                        <span> 
-                                            <span class="btn-text">Learn More</span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                        </span>
-                                    </a>
-                                    <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
-                                        <span>
-                                            <span class="btn-text">Our Services</span>
-                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                        </span> 
-                                    </a>
-                                </span>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end slider item -->
-        </div>
-        <div class="swiper-pagination swiper-pagination-bullets"></div>
-    </div>
-</section>
+       <?php  include("slider.php"); ?> 
+
 
 
         <!-- end section -->  
@@ -127,7 +32,7 @@
                     <div class="col md-mb-30px">
                         <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
                             <div class="position-relative box-image">
-                                <a href="demo-startup-services-details.html"><img src="https://via.placeholder.com/600x500" alt=""></a>
+                                <a href="demo-startup-services-details.html"><img src="images/labs/slider1.jpeg" alt=""></a>
                                 <a href="#" class="btn btn-very-small btn-rounded btn-dark-gray text-white btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase">R&D</a>
                             </div>
                             <div class="bg-white">
@@ -152,7 +57,7 @@
                     <div class="col md-mb-30px">
                         <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
                             <div class="position-relative box-image">
-                                <a href="demo-startup-services-details.html"><img src="https://via.placeholder.com/600x500" alt=""></a>
+                                <a href="demo-startup-services-details.html"><img src="images/labs/slider2.jpeg" alt=""></a>
                                 <a href="#" class="btn btn-very-small btn-rounded btn-dark-gray text-white btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase">IT Solutions</a>
                             </div>
                             <div class="bg-white">
@@ -184,7 +89,7 @@
                     <div class="col-lg-6 text-center md-mb-50px"> 
                         <figure class="position-relative m-0">
                             <div class="position-relative d-inline-block" data-anime='{ "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                <img class="w-90 border-radius-5px animation-float" src="https://via.placeholder.com/600x750" alt="" />
+                                <img class="w-90 border-radius-5px animation-float" src="https://images.pexels.com/photos/12899151/pexels-photo-12899151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                             </div>
                             <figcaption class="position-absolute bg-white box-shadow-quadruple-large border-radius-5px bottom-50px xs-bottom-35px left-minus-30px md-left-minus-0px ps-50px pe-50px pt-35px pb-35px xs-p-20px w-320px xs-w-250px text-center last-paragraph-no-margin" data-anime='{ "translateY": [50, 0], "scale": [0.8,1], "opacity": [0,1], "duration": 800, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
                                 <div class="icon-with-text-style-06">
@@ -297,108 +202,7 @@
                 </div>
             </div>
         </section>
-        
-        <!-- end section -->
-        <!-- start section -->
-        <section class="background-position-center-top p-0 sm-background-image-none" style="background-image: url('images/vertical-line-bg.svg')">
-            <div class="container">
-                <div class="row position-relative clients-style-08">
-                    <div class="col swiper text-center feather-shadow" data-slider-options='{ "slidesPerView": 2, "spaceBetween":0, "speed": 4000, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-2", "clickable": false }, "allowTouchMove": false, "autoplay": { "delay":0, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-four-slide-next-2", "prevEl": ".slider-four-slide-prev-2" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 4 }, "768": { "slidesPerView": 3 } }, "effect": "slide" }'>
-                        <div class="swiper-wrapper marquee-slide">
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-envato.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-pingdom.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-paypal.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-walmart.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-logitech.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-envato.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-pingdom.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                            <!-- start client item -->
-                            <div class="swiper-slide">
-                                <a href="#"><img src="images/logo-paypal.svg" class="h-40px xs-h-30px" alt="" /></a>
-                            </div>
-                            <!-- end client item -->
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section -->
-        <!-- start section -->
-        <section class="background-position-center-top position-relative sm-background-image-none" style="background-image: url('images/vertical-line-bg.svg')">
-            <div class="container">
-                <div class="row justify-content-center mb-1">
-                    <div class="col-lg-7 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <span class="alt-font text-uppercase fw-600 d-inline-block ls-1px">Stay new updated</span>
-                        <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="1000">Explore the <span class="text-highlight fw-800">news<span class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span></h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 px-0">
-                        <ul class="blog-grid blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-double-extra-large" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1000, "willchange": "transform", "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                            <li class="grid-sizer"></li>
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover">
-                                    <div class="blog-image">
-                                        <a href="blog-single.php" class="d-block">
-                                            <img src="https://via.placeholder.com/600x430" alt="Guidance from Dr. Samir Kamat" />
-                                        </a>
-                                        <div class="blog-categories">
-                                            <a href="blog-single.php" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-700">Defense</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-13 md-p-11">
-                                        <a href="blog-single.php" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">Guidance from Dr. Samir Kamat for Navaacharan Team at Government Engineering College</a>
-                                        <p>The Navaacharan team from Government Engineering College Chhatrapati Sambhajinagar attended the 'Defense Innovation Challenge for Excellence 2024' with esteemed guest Dr. Samir V. Kamat.</p>
-                                        <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
-                                            <div class="me-auto">
-                                                <span class="blog-date d-inline-block">30 October 2024</span>
-                                                <div class="d-inline-block author-name">By <a href="blog-single.php" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Sujit Magar</a></div>
-                                            </div>
-                                            <div class="like-count">
-                                                <a href="blog-single.php"><i class="fa-regular fa-heart text-base-color"></i><span class="text-dark-gray align-middle fw-500">50</span></a>
-                                            </div>  
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <!-- end blog item -->
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section -->
+               <!-- end section -->
         <!-- start footer -->
         <?php  include "footer.php"; ?>
         
