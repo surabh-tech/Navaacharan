@@ -6,7 +6,7 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
-        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(https://via.placeholder.com/1920x1100)">
+        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">

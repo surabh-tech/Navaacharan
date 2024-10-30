@@ -6,7 +6,7 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
-        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(https://www.istockphoto.com/photo/cropped-shot-of-three-young-businessmpeople-working-together-on-a-laptop-in-their-gm1322205588-408240608?utm_campaign=srp_photos_limitedresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2FIT%2520solutions%2F%3Fsize%3Dlarge%26orientation%3Dsquare&utm_medium=affiliate&utm_source=pexels&utm_term=IT%20solutionshttps://images.pexels.com/photos/5324937/pexels-photo-5324937.jpeg?auto=compress&cs=tinysrgb&w=600)">
+        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">
