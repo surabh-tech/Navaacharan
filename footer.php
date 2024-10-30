@@ -13,23 +13,16 @@
                             <img src="images/navaacharan-labs-logo-white.png" alt="Navaacharan Labs Logo">
                         </a>
                         <p class="w-90 lg-w-40 md-w-100 mx-lg-auto mx-xl-0">Navaacharan Labs specializes in cutting-edge research and development to drive innovation in technology.</p>
-                        <div class="elements-social social-icon-style-02 mt-20px">
-                            <ul class="small-icon light">
-                                <li class="my-0"><a class="facebook" href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li class="my-0"><a class="twitter" href="http://www.twitter.com" target="_blank" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a></li> 
-                                <li class="my-0"><a class="instagram" href="http://www.instagram.com" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a></li> 
-                            </ul>
-                        </div>
                     </div>
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-6 col-xl-2 col-lg-3 col-sm-4 xs-mb-35px order-sm-3 order-lg-2">
                         <span class="alt-font fw-500 d-block text-white mb-10px">About Us</span>
                         <ul>
-                            <li><a href="demo-startup-who-we-are.html">Who We Are</a></li>
-                            <li><a href="demo-startup-services.html">Our Services</a></li>
-                            <li><a href="demo-startup-clients.html">Our Clients</a></li>
-                            <li><a href="demo-startup-contact.html">Contact Us</a></li>
+                            <li><a href="who-we-are.php">Who We Are</a></li>
+                            <li><a href="services.php">Our Services</a></li>
+                            <li><a href="clients.php">Our Clients</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                     <!-- end footer column -->
@@ -47,7 +40,7 @@
                     <div class="col-6 col-xl-2 col-lg-3 col-md-3 col-sm-4 xs-mb-35px order-sm-5 order-lg-4">
                         <span class="alt-font fw-500 d-block text-white mb-10px">Get in Touch</span>
                         <span>Call Us Directly</span>
-                        <span class="d-block mb-15px"><a class="text-white" href="tel:1235678901">(123) 567 8901</a></span>
+                        <span class="d-block mb-15px"><a class="text-white">+91 9307958935</a></span>
                         <span>Email Support</span>
                         <a href="mailto:support@navaacharanlabs.com" class="text-white text-decoration-line-bottom">support@navaacharanlabs.com</a>
                     </div>

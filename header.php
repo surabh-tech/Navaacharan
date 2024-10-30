@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg header-transparent bg-transparent border-bottom border-color-transparent-white-light disable-fixed">
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                <a class="navbar-brand" href="demo-startup.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="images/demo-startup-logo-white.png" data-at2x="images/demo-startup-logo-white@2x.png" alt="" class="default-logo">
                     <img src="images/demo-startup-logo-black.png" data-at2x="images/demo-startup-logo-black@2x.png" alt="" class="alt-logo">
                     <img src="images/demo-startup-logo-black.png" data-at2x="images/demo-startup-logo-black@2x.png" alt="" class="mobile-logo"> 
@@ -19,14 +19,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav"> 
                     <ul class="navbar-nav alt-font"> 
-                        <li class="nav-item"><a href="demo-startup.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="demo-startup-who-we-are.html" class="nav-link">Who we are</a></li>
+                        <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="who-we-are.php" class="nav-link">Who we are</a></li>
                         <li class="nav-item dropdown dropdown-with-icon">
-                            <a href="demo-startup-services.html" class="nav-link">Services</a>
+                            <a href="services.php" class="nav-link">Services</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li>
-                                    <a href="demo-startup-services-details.html"><i class="line-icon-Money-Bag"></i>
+                                    <a href="services-details.php"><i class="line-icon-Money-Bag"></i>
                                         <div class="submenu-icon-content">
                                             <span>IT Solutions</span>
                                             <p>Custom software and IT services</p>
@@ -43,8 +43,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="demo-startup-clients.html" class="nav-link">Clients</a></li>
-                        <li class="nav-item"><a href="demo-startup-contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="clients.php" class="nav-link">Clients</a></li>
+                        <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
             </div>

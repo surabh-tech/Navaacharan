@@ -1,135 +1,110 @@
 ﻿<!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <title>Navaacharan Labs - Innovating IT Solutions and Research</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="ThemeZaa">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="description" content="Navaacharan Labs is an IT firm specializing in IT services, research, and development projects to drive innovation and growth.">
-        <!-- favicon icon -->
-        <link rel="shortcut icon" href="images/favicon.png">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-        <!-- google fonts preconnect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- style sheets and font icons -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/startup/startup.css" />
-    </head>
+    <?php  include "head.php"; ?>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start section -->
         <section class="p-0 bg-dark-gray">
-            <div class="swiper lg-no-parallax full-screen md-h-600px sm-h-500px swiper-light-pagination ipad-top-space-margin magic-cursor drag-cursor" data-slider-options='{ "slidesPerView": 1, "loop": true, "parallax": true, "speed": 1200, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "pagination": { "el": ".swiper-pagination-bullets", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
-                <div class="swiper-wrapper">
-                    <!-- start slider item -->
-                    <div class="swiper-slide overflow-hidden">
-                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
-                            <div class="opacity-light bg-gradient-black-green"></div>
-                            <div class="container h-100" data-swiper-parallax="-300">
-                                <div class="row align-items-center justify-content-center h-100 text-center">
-                                    <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
-                                        <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Creative solutions for everyone</span></span>
-                                        <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["We craft unique business ideas"] }'></span>
-                                        <div data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 1000, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
-                                                <span> 
-                                                    <span class="btn-text">Know more </span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                </span>
-                                            </a>
-                                            <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
-                                                <span>
-                                                    <span class="btn-text">Services</span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                </span> 
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>   
-                        </div>
-                    </div>
-                    <!-- end slider item -->
-                    <!-- start slider item -->
-                    <div class="swiper-slide overflow-hidden">
-                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000" >
-                            <div class="opacity-light bg-gradient-black-green"></div>
-                            <div class="container h-100" data-swiper-parallax="-300">
-                                <div class="row align-items-center justify-content-center h-100 text-center">
-                                    <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
-                                        <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Ideas and brainstorming</span></span>
-                                        <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Business growth and solution"] }'></span>
-                                        <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
-                                                <span> 
-                                                    <span class="btn-text">Know more </span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                </span>
-                                            </a>
-                                            <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
-                                                <span>
-                                                    <span class="btn-text">Services</span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                </span> 
-                                            </a>
+    <div class="swiper lg-no-parallax full-screen md-h-600px sm-h-500px swiper-light-pagination ipad-top-space-margin magic-cursor" data-slider-options='{ "slidesPerView": 1, "loop": true, "parallax": true, "speed": 1200, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "pagination": { "el": ".swiper-pagination-bullets", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
+        <div class="swiper-wrapper">
+            <!-- start slider item -->
+            <div class="swiper-slide overflow-hidden">
+                <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
+                    <div class="opacity-light bg-gradient-black-green"></div>
+                    <div class="container h-100" data-swiper-parallax="-300">
+                        <div class="row align-items-center justify-content-center h-100 text-center">
+                            <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
+                                <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Innovative IT Solutions for All</span></span>
+                                <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Empowering Your Digital Transformation"] }'></span>
+                                <div data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 1000, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                    <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
+                                        <span> 
+                                            <span class="btn-text">Learn More</span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
                                         </span>
-                                    </div> 
+                                    </a>
+                                    <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
+                                        <span>
+                                            <span class="btn-text">Our Services</span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                        </span> 
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- end slider item -->
-                    <!-- start slider item -->
-                    <div class="swiper-slide overflow-hidden">
-                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
-                            <div class="opacity-light bg-gradient-black-green"></div>
-                            <div class="container h-100" data-swiper-parallax="-300">
-                                <div class="row align-items-center justify-content-center h-100 text-center">
-                                    <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
-                                        <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Ideas and brainstorming</span></span>
-                                        <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["We safeguard your business"] }'></span>
-                                        <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
-                                                <span> 
-                                                    <span class="btn-text">Know more </span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                </span>
-                                            </a>
-                                            <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
-                                                <span>
-                                                    <span class="btn-text">Services</span>
-                                                    <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
-                                                </span> 
-                                            </a>
-                                        </span>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end slider item -->
+                        </div> 
+                    </div>   
                 </div>
-                <!-- start slider pagination -->
-                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
-                <!-- end slider pagination --> 
-                <!-- start slider navigation -->
-                <!--<div class="slider-one-slide-prev-1 icon-extra-large text-white swiper-button-prev slider-navigation-style-06 d-none d-sm-inline-block"><i class="line-icon-Arrow-OutLeft"></i></div>
-                    <div class="slider-one-slide-next-1 icon-extra-large text-white swiper-button-next slider-navigation-style-06 d-none d-sm-inline-block"><i class="line-icon-Arrow-OutRight"></i></div>-->
-                <!-- end slider navigation -->
             </div>
-        </section>
+            <!-- end slider item -->
+            <!-- start slider item -->
+            <div class="swiper-slide overflow-hidden">
+                <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
+                    <div class="opacity-light bg-gradient-black-green"></div>
+                    <div class="container h-100" data-swiper-parallax="-300">
+                        <div class="row align-items-center justify-content-center h-100 text-center">
+                            <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
+                                <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Research and Development Excellence</span></span>
+                                <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Driving Innovation Forward"] }'></span>
+                                <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                    <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
+                                        <span> 
+                                            <span class="btn-text">Learn More</span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                    <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
+                                        <span>
+                                            <span class="btn-text">Our Services</span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                        </span> 
+                                    </a>
+                                </span>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end slider item -->
+            <!-- start slider item -->
+            <div class="swiper-slide overflow-hidden">
+                <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url('https://via.placeholder.com/1920x1080');" data-swiper-parallax="1000">
+                    <div class="opacity-light bg-gradient-black-green"></div>
+                    <div class="container h-100" data-swiper-parallax="-300">
+                        <div class="row align-items-center justify-content-center h-100 text-center">
+                            <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
+                                <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Cutting-edge Solutions for the Future</span></span>
+                                <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Transforming Ideas into Reality"] }'></span>
+                                <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                    <a href="index.html" target="_blank" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px xs-m-10px">
+                                        <span> 
+                                            <span class="btn-text">Learn More</span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                    <a href="index.html" target="_blank" class="btn btn-large btn-transparent-white-light border-1 btn-hover-animation btn-box-shadow btn-round-edge xs-m-10px">
+                                        <span>
+                                            <span class="btn-text">Our Services</span>
+                                            <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
+                                        </span> 
+                                    </a>
+                                </span>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end slider item -->
+        </div>
+        <div class="swiper-pagination swiper-pagination-bullets"></div>
+    </div>
+</section>
+
+
         <!-- end section -->  
         <!-- start section -->
         <section class="pt-0 background-position-center-top sm-background-image-none" style="background-image: url('images/vertical-line-bg.svg')">
