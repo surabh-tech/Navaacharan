@@ -368,77 +368,31 @@
                             <li class="grid-item">
                                 <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover">
                                     <div class="blog-image">
-                                        <a href="demo-startup-blog-single-simple.html" class="d-block"><img src="https://via.placeholder.com/600x430" alt="" /></a>
+                                        <a href="blog-single.php" class="d-block">
+                                            <img src="https://via.placeholder.com/600x430" alt="Guidance from Dr. Samir Kamat" />
+                                        </a>
                                         <div class="blog-categories">
-                                            <a href="demo-startup-blog.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-700">Agency</a>
+                                            <a href="blog-single.php" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-700">Defense</a>
                                         </div>
                                     </div>
                                     <div class="card-body p-13 md-p-11">
-                                        <a href="demo-startup-blog-single-simple.html" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">Build up healthy habits and strong peaceful life</a>
-                                        <p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor</p>
+                                        <a href="blog-single.php" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">Guidance from Dr. Samir Kamat for Navaacharan Team at Government Engineering College</a>
+                                        <p>The Navaacharan team from Government Engineering College Chhatrapati Sambhajinagar attended the 'Defense Innovation Challenge for Excellence 2024' with esteemed guest Dr. Samir V. Kamat.</p>
                                         <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
                                             <div class="me-auto">
-                                                <span class="blog-date d-inline-block">30 August 2021</span>
-                                                <div class="d-inline-block author-name">By <a href="demo-startup-blog.html" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Den viliamson</a></div>
+                                                <span class="blog-date d-inline-block">30 October 2024</span>
+                                                <div class="d-inline-block author-name">By <a href="blog-single.php" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Sujit Magar</a></div>
                                             </div>
                                             <div class="like-count">
-                                                <a href="demo-startup-blog-single-simple.html"><i class="fa-regular fa-heart text-base-color"></i><span class="text-dark-gray align-middle fw-500">25</span></a>
+                                                <a href="blog-single.php"><i class="fa-regular fa-heart text-base-color"></i><span class="text-dark-gray align-middle fw-500">50</span></a>
                                             </div>  
                                         </div>
                                     </div>
                                 </div>
                             </li>
+
                             <!-- end blog item -->
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover">
-                                    <div class="blog-image">
-                                        <a href="demo-startup-blog-single-simple.html" class="d-block"><img src="https://via.placeholder.com/600x430" alt="" /></a>
-                                        <div class="blog-categories">
-                                            <a href="demo-startup-blog.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-700">Luxurious</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-13 md-p-11">
-                                        <a href="demo-startup-blog-single-simple.html" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">How to bring the season into your great marketing</a>
-                                        <p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor</p>
-                                        <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
-                                            <div class="me-auto">
-                                                <span class="blog-date d-inline-block">28 August 2021</span>
-                                                <div class="d-inline-block author-name">By <a href="demo-startup-blog.html" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Hugh macleod</a></div>
-                                            </div>
-                                            <div class="like-count">
-                                                <a href="demo-startup-blog-single-simple.html"><i class="fa-regular fa-heart text-base-color"></i><span class="text-dark-gray align-middle fw-500">58</span></a>
-                                            </div>  
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- end blog item -->
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover">
-                                    <div class="blog-image">
-                                        <a href="demo-startup-blog-single-simple.html" class="d-block"><img src="https://via.placeholder.com/600x430" alt="" /></a>
-                                        <div class="blog-categories">
-                                            <a href="demo-startup-blog.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-700">Business</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-13 md-p-11">
-                                        <a href="demo-startup-blog-single-simple.html" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">Be the strong willed one the public relationship</a>
-                                        <p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor</p>
-                                        <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
-                                            <div class="me-auto">
-                                                <span class="blog-date d-inline-block">26 August 2021</span>
-                                                <div class="d-inline-block author-name">By <a href="demo-startup-blog.html" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Walton smith</a></div>
-                                            </div>
-                                            <div class="like-count">
-                                                <a href="demo-startup-blog-single-simple.html"><i class="fa-regular fa-heart text-base-color"></i><span class="text-dark-gray align-middle fw-500">75</span></a>
-                                            </div>  
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- end blog item --> 
+                            
                         </ul>
                     </div>
                 </div>
