@@ -202,7 +202,54 @@
                 </div>
             </div>
         </section>
-               <!-- end section -->
+        
+        <section class="background-position-center-top position-relative sm-background-image-none" style="background-image: url('images/vertical-line-bg.svg')">
+            <div class="container">
+                <div class="row justify-content-center mb-1">
+                    <div class="col-lg-7 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <span class="alt-font text-uppercase fw-600 d-inline-block ls-1px">Stay new updated</span>
+                        <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="1000">Explore the <span class="text-highlight fw-800">news<span class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <ul class="blog-grid blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-double-extra-large" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1000, "willchange": "transform", "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <li class="grid-sizer"></li>
+                            <!-- start blog item -->
+                            <li class="grid-item">
+                                <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover">
+                                    <div class="blog-image">
+                                        <a href="blog-single.php" class="d-block">
+                                            <img src="https://via.placeholder.com/600x430" alt="Guidance from Dr. Samir Kamat" />
+                                        </a>
+                                        <div class="blog-categories">
+                                            <a href="blog-single.php" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-700">Defense</a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-13 md-p-11">
+                                        <a href="blog-single.php" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">Guidance from Dr. Samir Kamat for Navaacharan Team at Government Engineering College</a>
+                                        <p>The Navaacharan team from Government Engineering College Chhatrapati Sambhajinagar attended the 'Defense Innovation Challenge for Excellence 2024' with esteemed guest Dr. Samir V. Kamat.</p>
+                                        <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
+                                            <div class="me-auto">
+                                                <span class="blog-date d-inline-block">30 October 2024</span>
+                                                <div class="d-inline-block author-name">By <a href="blog-single.php" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Sujit Magar</a></div>
+                                            </div>
+                                            <div class="like-count">
+                                                <a href="blog-single.php"><i class="fa-regular fa-heart text-base-color"></i><span class="text-dark-gray align-middle fw-500">50</span></a>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- end blog item -->
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
         <!-- start footer -->
         <?php  include "footer.php"; ?>
         
