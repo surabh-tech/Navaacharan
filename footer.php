@@ -10,7 +10,7 @@
                     <!-- start footer column -->
                     <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-35px">
                         <a href="demo-startup.html" class="footer-logo mb-20px md-mb-10px d-inline-block" aria-label="logo">
-                            <img src="images/navaacharan-labs-logo-white.png" alt="Navaacharan Labs Logo">
+                            <img src="images/labs/logo1.png" alt="Navaacharan Labs Logo">
                         </a>
                         <p class="w-90 lg-w-40 md-w-100 mx-lg-auto mx-xl-0">Navaacharan Labs specializes in cutting-edge research and development to drive innovation in technology.</p>
                     </div>
@@ -27,14 +27,7 @@
                     </div>
                     <!-- end footer column -->
                     <!-- start footer column -->
-                    <div class="col-6 col-xl-2 col-lg-3 col-md-5 col-sm-4 xs-mb-35px order-sm-4 order-lg-3">
-                        <span class="alt-font fw-500 d-block text-white mb-10px">Services</span>
-                        <ul>
-                            <li><a href="demo-startup-services-details.html">Research & Development</a></li>
-                            <li><a href="demo-startup-services-details.html">Product Innovation</a></li>
-                            <li><a href="demo-startup-services-details.html">Technology Solutions</a></li>
-                        </ul>
-                    </div>
+                    
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-6 col-xl-2 col-lg-3 col-md-3 col-sm-4 xs-mb-35px order-sm-5 order-lg-4">
@@ -42,7 +35,7 @@
                         <span>Call Us Directly</span>
                         <span class="d-block mb-15px"><a class="text-white">+91 9307958935</a></span>
                         <span>Email Support</span>
-                        <a href="mailto:support@navaacharanlabs.com" class="text-white text-decoration-line-bottom">support@navaacharanlabs.com</a>
+                        <a href="mailto:navaacharanlabs@gmail.com" class="text-white text-decoration-line-bottom">navaacharanlabs@gmail.com</a>
                     </div>
                     <!-- end footer column -->                    
                 </div>

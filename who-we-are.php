@@ -6,7 +6,7 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
-        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg)">
+        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(images/labs/who2.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">
@@ -33,13 +33,13 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center mb-8 xs-mb-50px">
                     <div class="col-lg-6 col-md-10 position-relative md-mb-50px sm-mb-30px" data-anime='{ "effect": "slide", "direction": "tb", "color": "#252840", "duration": 1000, "delay": 0 }'>
-                        <img class="w-100 border-radius-5px" src="https://images.pexels.com/photos/5324937/pexels-photo-5324937.jpeg?auto=compress&cs=tinysrgb&w=600" alt="About Us">
+                        <img class="w-100 border-radius-5px" src="images/labs/who1.jpeg" alt="About Us">
                     </div>
                     <div class="col-xl-4 offset-lg-1 col-lg-5 col-md-10 text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <span class="alt-font text-uppercase fw-600 mb-15px d-inline-block ls-1px">About Us</span>
                         <h3 class="alt-font fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="1500">Empowering Innovation through <span class="text-highlight fw-800">R&D and IT Solutions<span class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span></h3>
                         <p class="mb-35px sm-mb-25px">At Navaacharan Labs, we specialize in research and development and innovative IT solutions that address real-world challenges, driving technological advancements for our clients.</p> 
-                        <a href="demo-startup-services.html" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow">
+                        <a href="services.php" class="btn btn-large btn-gradient-emerald-blue-emerald-green btn-hover-animation-switch btn-round-edge btn-box-shadow">
                             <span> 
                                 <span class="btn-text">Discover Our Services</span>
                                 <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
@@ -50,9 +50,7 @@
                 </div>
             </div>
         </section>
-        
-        <!-- end section -->
-        <!-- start section -->
+      
         <section class="cover-background" style="background-image: url(images/demo-startup-who-we-are-bg.jpg)">
             <div class="container">
                 <div class="row justify-content-center mb-3">

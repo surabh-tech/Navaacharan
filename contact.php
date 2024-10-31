@@ -6,7 +6,7 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
-        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg)">
+        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(images/labs/service.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">
@@ -36,13 +36,13 @@
                             <div class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white w-100 border-radius-5px"> 
                                 <div class="rotate-content-front z-index-2">
                                     <i class="line-icon-Geo2-Love icon-extra-large text-base-color mb-25px"></i>
-                                    <div class="fs-19 text-dark-gray fw-500 mb-5px">Crafto design</div>
-                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">401 Broadway, 24th floor New york, NY 10013</span>
+                                    <div class="fs-19 text-dark-gray fw-500 mb-5px">NavaAcharan Labs</div>
+                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Government College of Engineering, Ankur Incubation Center, 431005</span>
                                 </div>
                             </div>
                             <!-- end front side -->
                             <!-- start back side -->
-                            <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-5px" style="background-image:url('https://via.placeholder.com/600x450')">
+                            <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-5px" style="background-image:url()">
                                 <div class="opacity-light bg-charcoal-blue"></div>
                                 <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-15"> 
                                     <a href="#location" class="btn btn-medium btn-round-edge btn-gradient-emerald-blue-emerald-green section-link">Location map</a>
@@ -60,16 +60,16 @@
                                 <div class="rotate-content-front z-index-2">
                                     <i class="line-icon-Headset icon-extra-large text-base-color mb-25px"></i>
                                     <div class="fs-19 text-dark-gray fw-500 mb-5px">Let's talk with us</div>
-                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Phone: 1-800-222-000</span>
-                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Fax: 1-800-222-002</span> 
+                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Phone:+91 9307958935</span>
+                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Phone:+91 9325504485</span> 
                                 </div>
                             </div>
                             <!-- end front side -->
                             <!-- start back side -->
-                            <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-5px" style="background-image:url('https://via.placeholder.com/600x450')">
+                            <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-5px" style="background-image:url('')">
                                 <div class="opacity-light bg-charcoal-blue"></div>
                                 <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-15"> 
-                                    <a href="tel:+1-800-222-000" class="btn btn-medium btn-round-edge btn-gradient-emerald-blue-emerald-green">Talk with us</a>
+                                    <a href="tel:+91 9307958935" class="btn btn-medium btn-round-edge btn-gradient-emerald-blue-emerald-green">Talk with us</a>
                                 </div>
                                 <!-- end back side -->
                             </div>
@@ -89,10 +89,10 @@
                             </div>
                             <!-- end front side -->
                             <!-- start back side -->
-                            <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-5px" style="background-image:url('https://via.placeholder.com/600x450')">
+                            <div class="w-100 h-100 overflow-hidden back-side cover-background border-radius-5px" style="background-image:url('')">
                                 <div class="opacity-light bg-charcoal-blue"></div>
                                 <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-15"> 
-                                    <a href="mailto:info@yourdomain.com" class="btn btn-medium btn-round-edge btn-gradient-emerald-blue-emerald-green">Support desk</a>
+                                    <a href="mailto:navaacharanlabs@gmail.com" class="btn btn-medium btn-round-edge btn-gradient-emerald-blue-emerald-green">Support desk</a>
                                 </div>
                                 <!-- end back side -->
                             </div>
@@ -115,28 +115,28 @@
                 <div class="row row-cols-md-1 justify-content-center">
                     <div class="col-xl-9 overflow-hidden">
                         <!-- start contact form -->
-                        <form action="email-templates/contact-form.php" method="post" class="row contact-form-style-02" data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 600, "delay": 250, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <form  class="row contact-form-style-02" data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 600, "delay": 250, "staggervalue": 300, "easing": "easeOutQuad" }'>
                             <div class="col-md-6 mb-30px">
-                                <input class="input-name form-control required" type="text" name="name" placeholder="Your name*" />
+                                <input class="input-name form-control required" type="text" id ="name" name="name" placeholder="Your name*" />
                             </div>
                             <div class="col-md-6 mb-30px">
-                                <input class="form-control required" type="email" name="email" placeholder="Your email address*" />
+                                <input class="form-control required" type="email" name="email" id="email" placeholder="Your email address*" />
                             </div>
                             <div class="col-md-6 mb-30px">
-                                <input class="form-control" type="tel" name="phone" placeholder="Your phone" />
+                                <input class="form-control" type="tel" name="phone" id="phone" placeholder="Your phone" />
                             </div>
                             <div class="col-md-6 mb-30px">
-                                <input class="form-control" type="text" name="subject" placeholder="Your subject" />
+                                <input class="form-control" type="text" name="subject" id="subject" placeholder="Your subject" />
                             </div>
                             <div class="col-md-12 mb-30px">
-                                <textarea class="form-control" cols="40" rows="4" name="comment" placeholder="Your message"></textarea>
+                                <textarea class="form-control" cols="40" rows="4" name="comment" id="comment" placeholder="Your message"></textarea>
                             </div>
                             <div class="col-xl-6 col-md-7 last-paragraph-no-margin">
                                 <p class="text-center text-md-start fs-15 lh-28">We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</p>
                             </div>
                             <div class="col-xl-6 col-md-5 text-center text-md-end sm-mt-20px">
                                 <input type="hidden" name="redirect" value="">
-                                <button class="btn btn-gradient-emerald-blue-emerald-green btn-small btn-round-edge submit" type="submit">Send message</button>
+                                <button class="btn btn-gradient-emerald-blue-emerald-green btn-small btn-round-edge submit" type="submit" id="mail_button" onclick="submitcontact()">Send message</button>
                             </div>
                             <div class="col-12">
                                 <div class="form-results mt-20px d-none"></div>
@@ -163,5 +163,24 @@
         <script type="text/javascript" src="js/vendors.min.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA56KqSJ11nQUw_tXgXyNMiPmQeM7EaSA&callback=initMap"></script>
         <script type="text/javascript" src="js/main.js"></script>
+        <script>
+document.addEventListener('DOMContentLoaded', function() {
+  function submitcontact() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('comment').value;
+
+    const mailtoLink = `mailto:navaacharanlabs@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`)}`;
+
+    window.location.href = mailtoLink;
+  }
+
+  document.getElementById('mail_button').addEventListener('click', function(event) {
+    event.preventDefault();
+    submitcontact();
+  });
+});
+</script>
     </body>
 </html>

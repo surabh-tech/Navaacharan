@@ -2,16 +2,9 @@
 <html class="no-js" lang="en">
     <?php  include "head.php"; ?>
     <body data-mobile-nav-style="classic">
-        <!-- start header -->
+      
         <?php  include "header.php"; ?>
-        <!-- end header -->
-        <!-- start section -->
        <?php  include("slider.php"); ?> 
-
-
-
-        <!-- end section -->  
-        <!-- start section -->
         <section class="pt-0 background-position-center-top sm-background-image-none" style="background-image: url('images/vertical-line-bg.svg')">
             <div class="container-fluid d-none d-md-block">
                 <div class="row">
@@ -32,16 +25,16 @@
                     <div class="col md-mb-30px">
                         <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
                             <div class="position-relative box-image">
-                                <a href="demo-startup-services-details.html"><img src="images/labs/slider1.jpeg" alt=""></a>
+                                <a href="services.php"><img src="images/labs/slider1.jpeg" alt=""></a>
                                 <a href="#" class="btn btn-very-small btn-rounded btn-dark-gray text-white btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase">R&D</a>
                             </div>
                             <div class="bg-white">
                                 <div class="ps-65px pe-65px xl-ps-50px xl-pe-50px lg-ps-30px lg-pe-30px pt-30px pb-30px text-center">
-                                    <a href="demo-startup-services-details.html" class="d-inline-block fs-18 alt-font fw-700 text-dark-gray mb-5px">Innovative Research</a>
+                                    <a href="services.php" class="d-inline-block fs-18 alt-font fw-700 text-dark-gray mb-5px">Innovative Research</a>
                                     <p>Pioneering research and development solutions tailored to industry challenges.</p> 
                                 </div> 
                                 <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
-                                    <a href="demo-startup-services-details.html" class="btn btn-link btn-hover-animation-switch btn-very-small fw-700 text-dark-gray text-uppercase">
+                                    <a href="services.php" class="btn btn-link btn-hover-animation-switch btn-very-small fw-700 text-dark-gray text-uppercase">
                                         <span>
                                             <span class="btn-text">Explore R&D</span>
                                             <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -57,16 +50,16 @@
                     <div class="col md-mb-30px">
                         <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
                             <div class="position-relative box-image">
-                                <a href="demo-startup-services-details.html"><img src="images/labs/slider2.jpeg" alt=""></a>
+                                <a href="services.php"><img src="images/labs/slider2.jpeg" alt=""></a>
                                 <a href="#" class="btn btn-very-small btn-rounded btn-dark-gray text-white btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 position-absolute right-30px top-30px text-uppercase">IT Solutions</a>
                             </div>
                             <div class="bg-white">
                                 <div class="ps-65px pe-65px xl-ps-50px xl-pe-50px lg-ps-30px lg-pe-30px pt-30px pb-30px text-center">
-                                    <a href="demo-startup-services-details.html" class="d-inline-block fs-18 alt-font fw-700 text-dark-gray mb-5px">Customized IT Solutions</a>
+                                    <a href="services.php" class="d-inline-block fs-18 alt-font fw-700 text-dark-gray mb-5px">Customized IT Solutions</a>
                                     <p>Optimizing technology to meet unique business needs and drive digital transformation.</p> 
                                 </div> 
                                 <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
-                                    <a href="demo-startup-services-details.html" class="btn btn-link btn-hover-animation-switch btn-very-small fw-700 text-dark-gray text-uppercase">
+                                    <a href="services.php" class="btn btn-link btn-hover-animation-switch btn-very-small fw-700 text-dark-gray text-uppercase">
                                         <span>
                                             <span class="btn-text">Explore IT Solutions</span>
                                             <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -89,7 +82,7 @@
                     <div class="col-lg-6 text-center md-mb-50px"> 
                         <figure class="position-relative m-0">
                             <div class="position-relative d-inline-block" data-anime='{ "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                <img class="w-90 border-radius-5px animation-float" src="https://images.pexels.com/photos/12899151/pexels-photo-12899151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                                <img class="w-90 border-radius-5px animation-float" src="https://images.pexels.com/photos/12899151/pexels-photo-12899151.jpeg" alt="" />
                             </div>
                             <figcaption class="position-absolute bg-white box-shadow-quadruple-large border-radius-5px bottom-50px xs-bottom-35px left-minus-30px md-left-minus-0px ps-50px pe-50px pt-35px pb-35px xs-p-20px w-320px xs-w-250px text-center last-paragraph-no-margin" data-anime='{ "translateY": [50, 0], "scale": [0.8,1], "opacity": [0,1], "duration": 800, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
                                 <div class="icon-with-text-style-06">
@@ -219,8 +212,8 @@
                             <li class="grid-item">
                                 <div class="card border-0 border-radius-5px box-shadow-quadruple-large box-shadow-quadruple-large-hover">
                                     <div class="blog-image">
-                                        <a href="blog-single.php" class="d-block">
-                                            <img src="https://via.placeholder.com/600x430" alt="Guidance from Dr. Samir Kamat" />
+                                        <a href="#" class="d-block">
+                                            <img src="images/labs/DRDO.png" alt="Guidance from Dr. Samir Kamat" />
                                         </a>
                                         <div class="blog-categories">
                                             <a href="blog-single.php" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-700">Defense</a>

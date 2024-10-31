@@ -6,7 +6,7 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
-        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg)">
+        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(images/labs/contact.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">
@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-10 position-relative md-mb-50px sm-mb-30px" data-anime='{ "effect": "slide", "direction": "tb", "color": "#252840", "duration": 1000, "delay": 0 }'>
-                        <img src="https://via.placeholder.com/800x745" alt="" class="w-100 border-radius-5px"> 
+                        <img src="images/labs/serv.jpeg" alt="" class="w-100 border-radius-5px"> 
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-md-10">
                         <span class="alt-font text-uppercase fw-600 mb-15px d-inline-block ls-1px" data-anime='{ "translateY": [50, 0], "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>Exceptional Services</span>
@@ -88,7 +88,7 @@
                         <!-- start interactive banners item -->
                         <div class="sliding-box-item box-shadow-extra-large md-mb-30px">
                             <div class="sliding-box-img position-relative">
-                                <img src="https://via.placeholder.com/800x649" alt="" class="w-100" />
+                                <img src="images/labs/tech1.jpg" alt="" class="w-100" />
                                 <div class="overlay-contnet w-100 h-100 d-flex flex-column align-items-center justify-content-center z-index-2 text-center">
                                     <div class="alt-font fw-600 fs-22 lh-30 text-white w-60">Innovative Tech Solutions</div>
                                     <span class="number fs-70 lh-70 fw-300 text-white">01</span>
@@ -99,7 +99,7 @@
                                 <div class="content-hover w-100">
                                     <div class="text-dark-gray alt-font fw-700 fs-18 lh-28 m-auto mb-5px">Customized Software Development</div>
                                     <p>We create tailored and creative software solutions.</p>
-                                    <a href="demo-startup-contact.html" class="btn btn-small btn-gradient-emerald-blue-emerald-green btn-round-edge mt-25px">Contact Us</a>
+                                    <a href="contact.php" class="btn btn-small btn-gradient-emerald-blue-emerald-green btn-round-edge mt-25px">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                         <!-- start interactive banners item -->
                         <div class="sliding-box-item box-shadow-extra-large">
                             <div class="sliding-box-img position-relative">
-                                <img src="https://via.placeholder.com/800x649" alt="" class="w-100" />
+                                <img src="images/labs/tech2.jpg" alt="" class="w-100" />
                                 <div class="overlay-contnet w-100 h-100 d-flex flex-column align-items-center justify-content-center z-index-2 text-center">
                                     <div class="alt-font fw-600 fs-22 lh-30 text-white w-60">Innovative Research & Development</div>
                                     <span class="number fs-70 lh-70 fw-300 text-white">02</span>
@@ -118,7 +118,7 @@
                                 <div class="content-hover w-100">
                                     <div class="text-dark-gray alt-font fw-700 fs-18 lh-28 m-auto mb-5px">Driving Innovation Through R&D</div>
                                     <p>We specialize in pioneering research and development solutions.</p>
-                                    <a href="demo-startup-contact.html" class="btn btn-small btn-gradient-emerald-blue-emerald-green btn-round-edge mt-25px">Discover Our Services</a>
+                                    <a href="services.php" class="btn btn-small btn-gradient-emerald-blue-emerald-green btn-round-edge mt-25px">Discover Our Services</a>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                         <!-- start interactive banners item -->
                         <div class="sliding-box-item box-shadow-extra-large">
                             <div class="sliding-box-img position-relative">
-                                <img src="https://via.placeholder.com/800x649" alt="" class="w-100" />
+                                <img src="images/labs/tech3.jpg" alt="" class="w-100" />
                                 <div class="overlay-contnet w-100 h-100 d-flex flex-column align-items-center justify-content-center z-index-2 text-center">
                                     <div class="alt-font fw-600 fs-22 lh-30 text-white w-60">Data-Driven Insights</div>
                                     <span class="number fs-70 lh-70 fw-300 text-white">03</span>
@@ -138,7 +138,7 @@
                                 <div class="content-hover w-100">
                                     <div class="text-dark-gray alt-font fw-700 fs-18 lh-28 m-auto mb-5px">Unlocking Business Potential</div>
                                     <p>Utilize data analytics to make informed decisions.</p>
-                                    <a href="demo-startup-contact.html" class="btn btn-small btn-gradient-emerald-blue-emerald-green btn-round-edge mt-25px">Discover More</a>
+                                    <a href="contact.php" class="btn btn-small btn-gradient-emerald-blue-emerald-green btn-round-edge mt-25px">Discover More</a>
                                 </div>
                             </div>
                         </div>

@@ -6,7 +6,7 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
-        <section class="page-title-big-typography ipad-top-space-margin xs-py-0 bg-dark-gray cover-background background-position-center-top" style="background-image: url(https://images.pexels.com/photos/8837810/pexels-photo-8837810.jpeg)">
+        <section class="page-title-big-typography ipad-top-space-margin xs-py-0 bg-dark-gray cover-background background-position-center-top" style="background-image: url(images/labs/clinet.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">
@@ -32,60 +32,33 @@
                     <!-- start client item -->
                     <div class="col text-center border-end border-bottom border-color-light-medium-gray xs-border-end-0 transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
                         <div class="client-box">
-                            <a href="#"><img src="images/logo-pingdom.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
+                            <a href="#"><img src="images/labs/src.jpg" class="h-140px md-h-130px sm-h-140px" alt="" /></a>
                         </div>
                     </div>
                     <!-- end client item -->
                     <!-- start client item -->
                     <div class="col text-center border-end border-bottom border-color-light-medium-gray sm-border-end-0 transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
                         <div class="client-box">
-                            <a href="#"><img src="images/logo-invision.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
+                            <a href="#"><img src="images/labs/AMC.png" class="h-130px md-h-90px sm-h-130px" alt="" /></a>
                         </div>
                     </div>
                     <!-- end client item -->
                     <!-- start client item -->
                     <div class="col text-center border-end border-bottom border-color-light-medium-gray xs-border-end-0 transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
                         <div class="client-box">
-                            <a href="#"><img src="images/logo-amazon.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
+                            <a href="#"><img src="images/labs/mac.jpg" class="h-140px md-h-130px sm-h-140px" alt="" /></a>
                         </div>
                     </div>
                     <!-- end client item -->
                     <!-- start client item -->
                     <div class="col text-center border-bottom border-color-light-medium-gray sm-border-end-0 transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
                         <div class="client-box">
-                            <a href="#"><img src="images/logo-slack.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
+                            <a href="#"><img src="images/labs/army.png" class="h-140px md-h-130px sm-h-140px" alt="" /></a>
                         </div>
                     </div>
                     <!-- end client item -->
                     <!-- start client item -->
-                    <div class="col text-center border-end border-color-light-medium-gray xs-border-end-0 sm-border-bottom transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-paypal.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                    <!-- start client item -->
-                    <div class="col text-center border-end border-color-light-medium-gray sm-border-end-0 sm-border-bottom transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-logitech.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                    <!-- start client item -->
-                    <div class="col text-center border-end border-color-light-medium-gray xs-border-end-0 xs-border-bottom transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-jquery.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                    <!-- start client item -->
-                    <div class="col text-center transition-inner-all pt-7 pb-7 ps-5 pe-5 sm-pt-12 sm-pb-12">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-less.svg" class="h-40px md-h-30px sm-h-40px" alt="" /></a>
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                </div>
+                     </div>
             </div>
         </section>
         <!-- end section -->
