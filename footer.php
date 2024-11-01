@@ -10,7 +10,7 @@
                     <!-- start footer column -->
                     <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-35px">
                         <a href="index.php" class="footer-logo mb-20px md-mb-10px d-inline-block" aria-label="logo">
-                        <img src="images/labs/name.png" alt="Navaacharan Labs Logo" style="width: 200px; height: auto;">
+                        <img src="images/labs/NAVAACHARAN.png" alt="Navaacharan Labs Logo" style="width: 200px; height: auto;">
 
                         </a>
                         <p class="w-90 lg-w-40 md-w-100 mx-lg-auto mx-xl-0">Navaacharan Labs specializes in cutting-edge research and development to drive innovation in technology.</p>
