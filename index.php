@@ -220,12 +220,12 @@
                                         </div>
                                     </div>
                                     <div class="card-body p-13 md-p-11">
-                                        <a href="blog-single.php" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">Guidance from Dr. Samir Kamat for Navaacharan Team at Government Engineering College</a>
+                                        <a href="#" class="card-title mb-15px alt-font fw-700 fs-18 lh-30 text-dark-gray text-dark-gray-hover d-inline-block">Guidance from Dr. Samir Kamat for Navaacharan Team at Government Engineering College</a>
                                         <p>The Navaacharan team from Government Engineering College Chhatrapati Sambhajinagar attended the 'Defense Innovation Challenge for Excellence 2024' with esteemed guest Dr. Samir V. Kamat.</p>
                                         <div class="author d-flex justify-content-center align-items-center position-relative overflow-hidden fs-14 text-uppercase">
                                             <div class="me-auto">
                                                 <span class="blog-date d-inline-block">30 October 2024</span>
-                                                <div class="d-inline-block author-name">By <a href="blog-single.php" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Sujit Magar</a></div>
+                                                <div class="d-inline-block author-name">By <a href="#" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-500">Sujit Magar</a></div>
                                             </div>
                                             <div class="like-count">
                                                 <a href="blog-single.php"><i class="fa-regular fa-heart text-base-color"></i><span class="text-dark-gray align-middle fw-500">50</span></a>

@@ -5,10 +5,10 @@
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
                 <a class="navbar-brand" href="index.php">
-                <img src="images/labs/name.png" alt="Logo" class="" width="200" height="600">
-                    <img src="images/labs/logo1.png" data-at2x="images/demo-startup-logo-black@2x.png" alt="" class="alt-logo">
-                    <img src="images/labs/logo1.png" data-at2x="images/demo-startup-logo-black@2x.png" alt="" class="mobile-logo"> 
-                </a>
+                <img src="images/labs/logo1.png" data-at2x="images/demo-startup-logo-white@2x.png" alt="" class="default-logo">
+                            <img src="images/labs/name.png" data-at2x="images/labs/name.png" alt="" class="alt-logo">
+                            <img src="images/labs/name.png" data-at2x="images/labs/name.png" alt="" class="mobile-logo"> 
+                        </a>
             </div>
             <div class="col-auto menu-order position-static">
                 <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
