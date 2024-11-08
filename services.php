@@ -6,7 +6,6 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
-         
         <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(images/labs/contact.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
@@ -27,15 +26,12 @@
                 </div>
             </div>
         </section>
-        
-        <!-- end page title -->
-        <!-- start section -->
         <section class="cover-background" style="background-image: url(images/demo-startup-who-we-are-bg.jpg)">
             <div class="container">
                 <div class="row justify-content-center mb-3">
                     <div class="col-lg-7 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <span class="alt-font text-uppercase fw-600 d-inline-block ls-1px">Exceptional Quality</span>
-                        <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="1000">Why <span class="text-highlight fw-800">choose<span class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span> us?</h3>
+                        <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="1000"><span class="text-highlight fw-800">Technologies We Work on<span class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span></h3>
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center" data-anime='{ "el": "childs", "rotateZ": [5, 0], "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -43,11 +39,12 @@
                     <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
                         <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
                             <div class="feature-box-icon">
-                                <i class="bi bi-chat-quote icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            <img src="https://cdn-icons-png.flaticon.com/128/1006/1006771.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">
+                                <!-- <i class="bi bi-chat-quote icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i>  -->
                             </div>
                             <div class="feature-box-content">
-                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Dedicated Support</span>
-                                <p>Our team is always ready to assist you with your needs.</p>
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Front-End Tech</span>
+                                <p>HTML CSS React.js Next.js BootStrap</p>
                             </div>
                             <div class="feature-box-overlay bg-white"></div>
                         </div>  
@@ -57,11 +54,12 @@
                     <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
                         <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
                             <div class="feature-box-icon">
-                                <i class="bi bi-bar-chart-line icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            <img src="https://cdn-icons-png.flaticon.com/128/7160/7160421.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                         
                             </div>
                             <div class="feature-box-content">
-                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Accelerated Growth</span>
-                                <p>We help businesses scale with innovative strategies.</p>
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Back-End Tech</span>
+                                <p>PHP J2EE Spring Django Flask Node.js</p>
                             </div>
                             <div class="feature-box-overlay bg-white"></div>
                         </div>  
@@ -71,11 +69,12 @@
                     <div class="col icon-with-text-style-04 transition-inner-all xs-mb-30px">
                         <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
                             <div class="feature-box-icon">
-                                <i class="bi bi-megaphone icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            <img src="https://cdn-icons-png.flaticon.com/128/149/149206.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                         
                             </div>
                             <div class="feature-box-content">
-                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Creative Solutions</span>
-                                <p>Our innovative approach sets us apart from the rest.</p>
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Database</span>
+                                <p>Mysql MariaDB Postsql MongoDB Firebase</p>
                             </div>
                             <div class="feature-box-overlay bg-white"></div>
                         </div>  
@@ -85,24 +84,93 @@
                     <div class="col icon-with-text-style-04 transition-inner-all">
                         <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
                             <div class="feature-box-icon">
-                                <i class="bi bi-briefcase icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            <img src="https://cdn-icons-png.flaticon.com/128/3211/3211252.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                          
                             </div>
                             <div class="feature-box-content">
-                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Strategic Branding</span>
-                                <p>We help define and elevate your brand identity.</p>
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Cloud Platforms</span>
+                                <p>Google Cloud Platform Microsoft Azure Amazon Web Services</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+            <div class="container"padding='0'>
+                
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center" data-anime='{ "el": "childs", "rotateZ": [5, 0], "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/128/90/90904.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Drone Tech</span>
+                                <p>Ground Controller Unmaned Vechiles</p>
                             </div>
                             <div class="feature-box-overlay bg-white"></div>
                         </div>  
                     </div>
                     <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1240/1240939.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                    
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Android Development</span>
+                                <p>Flutter Android IOS React Native</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all xs-mb-30px">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/128/2103/2103718.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                          
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Machine Learning </span>
+                                <p>Supervised Learning Unsupervised Learning Reinforcement Learning</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/128/4616/4616790.png" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                          
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18"> Artificial Intelligence (AI)</span>
+                                <p>Natural Language Processing (NLP) Computer Vision Robotics</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
                 </div>
+                
             </div>
         </section>
+        <!-- end page title -->
+        <!-- start section -->
         <section id="down-section" class="background-position-center-top sm-background-image-none" style="background-image: url('images/vertical-line-bg.svg')">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-10 position-relative md-mb-50px sm-mb-30px" data-anime='{ "effect": "slide", "direction": "tb", "color": "#252840", "duration": 1000, "delay": 0 }'>
-                        <img src="images/labs/serv.jpeg" alt="" class="w-100 border-radius-5px"> 
+                         <img src="images/labs/serv.jpeg" alt="Front-End Tech Icon" class="icon-extra-large mb-20px">   
+                         
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-md-10">
                         <span class="alt-font text-uppercase fw-600 mb-15px d-inline-block ls-1px" data-anime='{ "translateY": [50, 0], "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>Exceptional Services</span>

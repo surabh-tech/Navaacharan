@@ -1,14 +1,14 @@
-<!-- start header -->
 <header> 
     <!-- start navigation -->
     <nav class="navbar navbar-expand-lg header-transparent bg-transparent border-bottom border-color-transparent-white-light disable-fixed">
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
                 <a class="navbar-brand" href="index.php">
-                <img src="images/labs/logo1.png" data-at2x="images/labs/logo1.png" alt="" class="default-logo">
-                            <img src="images/labs/name.png" data-at2x="images/labs/name.png" alt="" class="alt-logo">
-                            <img src="images/labs/name.png" data-at2x="images/la]s/name.png" alt="" class="mobile-logo"> 
-                        </a>
+                <img src="images/labs/headlogo1.png" data-at2x="images/labs/headlogo1.png" alt="" class="default-logo">
+                            <img src="images/labs/headlogo1.png" data-at2x="images/labs/headlogo1.png" alt="" class="alt-logo">
+                            <img src="images/labs/headlogo1.png" data-at2x="images/labs/headlogo1.png" alt="" class="mobile-logo"> 
+
+               
             </div>
             <div class="col-auto menu-order position-static">
                 <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
@@ -40,4 +40,3 @@
         </div>
     </nav>
 </header>
-<!-- end header -->
