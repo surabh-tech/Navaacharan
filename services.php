@@ -6,6 +6,7 @@
         <?php  include "header.php"; ?>
         <!-- end header -->
         <!-- start page title -->
+         
         <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0 cover-background background-position-center-top" style="background-image: url(images/labs/contact.jpeg)">
             <div class="opacity-extra-medium bg-gradient-black-green"></div>
             <div class="container">
@@ -29,6 +30,74 @@
         
         <!-- end page title -->
         <!-- start section -->
+        <section class="cover-background" style="background-image: url(images/demo-startup-who-we-are-bg.jpg)">
+            <div class="container">
+                <div class="row justify-content-center mb-3">
+                    <div class="col-lg-7 text-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <span class="alt-font text-uppercase fw-600 d-inline-block ls-1px">Exceptional Quality</span>
+                        <h3 class="alt-font text-dark-gray fw-600 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="1000">Why <span class="text-highlight fw-800">choose<span class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span> us?</h3>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center" data-anime='{ "el": "childs", "rotateZ": [5, 0], "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <i class="bi bi-chat-quote icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Dedicated Support</span>
+                                <p>Our team is always ready to assist you with your needs.</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <i class="bi bi-bar-chart-line icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Accelerated Growth</span>
+                                <p>We help businesses scale with innovative strategies.</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all xs-mb-30px">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <i class="bi bi-megaphone icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Creative Solutions</span>
+                                <p>Our innovative approach sets us apart from the rest.</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-04 transition-inner-all">
+                        <div class="feature-box bg-white box-shadow-quadruple-large box-shadow-quadruple-large-hover justify-content-start border-radius-5px overflow-hidden pt-18 pb-18 ps-14 pe-14 lg-p-12 h-100 last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <i class="bi bi-briefcase icon-extra-large text-gradient-emerald-blue-emerald-green mb-20px"></i> 
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-inline-block alt-font text-dark-gray fw-700 mb-5px fs-18">Strategic Branding</span>
+                                <p>We help define and elevate your brand identity.</p>
+                            </div>
+                            <div class="feature-box-overlay bg-white"></div>
+                        </div>  
+                    </div>
+                    <!-- end features box item -->
+                </div>
+            </div>
+        </section>
         <section id="down-section" class="background-position-center-top sm-background-image-none" style="background-image: url('images/vertical-line-bg.svg')">
             <div class="container">
                 <div class="row align-items-center justify-content-center">

@@ -7,7 +7,7 @@
                 <a class="navbar-brand" href="index.php">
                 <img src="images/labs/logo1.png" data-at2x="images/labs/logo1.png" alt="" class="default-logo">
                             <img src="images/labs/name.png" data-at2x="images/labs/name.png" alt="" class="alt-logo">
-                            <img src="images/labs/name.png" data-at2x="images/labs/name.png" alt="" class="mobile-logo"> 
+                            <img src="images/labs/name.png" data-at2x="images/la]s/name.png" alt="" class="mobile-logo"> 
                         </a>
             </div>
             <div class="col-auto menu-order position-static">
