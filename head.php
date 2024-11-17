@@ -1,10 +1,21 @@
 <head>
-        <title>NavaAcharan Labs - Innovating IT Solutions and Research</title>
+        <title>Navaacharan Labs</title>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="ThemeZaa">
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta name="description" content="Navaacharan Labs is an IT firm specializing in IT services, research, and development projects to drive innovation and growth.">
+        <meta name="author" content="Navaacharan labs">
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph Meta -->
+        <meta property="og:title" content="Navaacharan Research Lab and IT Suppport  ">
+        <meta property="og:site_name" content="Navaacharan">
+        <meta property="og:description" content="Navaacharan Labs is an IT firm specializing in IT services, research, and development projects to drive innovation and growth.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+
+
+
         <!-- favicon icon -->
         <link rel="shortcut icon" href="images/labs/favicon.ico">
         <link rel="apple-touch-icon" href="images/labs/favicon.ico">
