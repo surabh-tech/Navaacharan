@@ -1,67 +1,64 @@
 <!-- start footer -->
-<footer class="footer-dark bg-slate-blue p-0">
-            <div class="d-none d-md-flex">  
-                <div class="overlap-section-one-fourth animation-float">
-                    <img src="images/demo-startup-bg-01.png" alt="">
-                </div> 
-            </div>
-            <div class="container">
-                <div class="row justify-content-center pt-4 lg-pt-2 sm-pt-45px">
-                    <!-- start footer column -->
-                    <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-35px">
-                        <a href="index.php" class="footer-logo mb-20px md-mb-10px d-inline-block" aria-label="logo">
-                        <img src="images/labs/headlogo1.png" alt="Navaacharan Labs Logo" style="width: 200px; height: auto;">
+<footer class="footer-dark bg-dark-gray p-0">
+    <div class="container">
+        <div class="row pt-60px pb-10px sm-pt-40px">
 
-                        </a>
-                        <p class="w-90 lg-w-40 md-w-100 mx-lg-auto mx-xl-0">Navaacharan Labs specializes in cutting-edge research and development to drive innovation in technology.</p>
-                    </div>
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    <div class="col-6 col-xl-2 col-lg-3 col-sm-4 xs-mb-35px order-sm-3 order-lg-2">
-                        <span class="alt-font fw-500 d-block text-white mb-10px">About Us</span>
-                        <ul>
-                            <li><a href="who-we-are.php">Who We Are</a></li>
-                            <li><a href="services.php">Our Services</a></li>
-                            <li><a href="clients.php">Our Clients</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    <div class="col-6 col-xl-2 col-lg-3 col-md-3 col-sm-4 xs-mb-35px order-sm-5 order-lg-4">
-                        <span class="alt-font fw-500 d-block text-white mb-10px">Get in Touch</span>
-                        <span>Call Us Directly</span>
-                        <span class="d-block mb-15px"><a class="text-white">+91 9307958935</a></span>
-                        <span>Email Support</span>
-                        <a href="mailto:navaacharanlabs@gmail.com" class="text-white text-decoration-line-bottom">navaacharanlabs@gmail.com</a>
-                    </div>
-                    <!-- end footer column -->                    
-                </div>
-                <div class="row justify-content-center align-items-center pt-5 sm-pt-35px">
-                    <!-- start divider -->
-                    <div class="col-12">
-                        <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-light"></div>
-                    </div>
-                    <!-- end divider -->
-                    <!-- start copyright -->
-                    <div class="col-lg-5 pt-25px pb-25px md-pt-0 fs-16 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin">
-                        <p>&copy; 2024 Navaacharan Labs.</p>
-                    </div>
-                    <!-- end copyright -->
-                    <!-- start footer menu -->
-                    <div class="col-lg-7 pt-25px pb-25px md-pb-5px fs-16 order-1 order-lg-2 text-center text-lg-end">
-                        <ul class="footer-navbar sm-lh-normal"> 
-                            <li><a href="#" class="nav-link">Privacy Policy</a></li>
-                            <li><a href="#" class="nav-link">Terms and Conditions</a></li>
-                            <li><a href="#" class="nav-link">Copyright</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer menu -->
-                </div>
-            </div> 
-        </footer>
-        
-        <!-- end footer -->
+            <!-- Brand column -->
+            <div class="col-12 col-lg-4 mb-40px mb-lg-0 text-center text-lg-start">
+                <a href="index.php" class="d-inline-block mb-20px">
+                    <img src="images/labs/headlogo1.png" alt="Navaacharan" style="height:48px;width:auto;">
+                </a>
+                <p class="fs-15 lh-28 opacity-7 mb-0" style="max-width:300px;margin:0 auto 0 auto;margin-lg:0;">
+                    Building with HTTP — Honesty, Trust, Transparency &amp; Partnership.<br>
+                    R&amp;D and software solutions for defence, industry and enterprise.
+                </p>
+            </div>
+
+            <!-- Quick links -->
+            <div class="col-6 col-lg-2 offset-lg-1 mb-30px mb-lg-0 text-center text-lg-start">
+                <span class="alt-font fw-600 d-block text-white mb-20px fs-16 text-uppercase ls-1px">Pages</span>
+                <ul class="list-unstyled mb-0" style="line-height:2.2">
+                    <li><a href="index.php" class="opacity-7 fs-15">Home</a></li>
+                    <li><a href="who-we-are.php" class="opacity-7 fs-15">Who We Are</a></li>
+                    <li><a href="services.php" class="opacity-7 fs-15">Services</a></li>
+                    <li><a href="clients.php" class="opacity-7 fs-15">Clients</a></li>
+                    <li><a href="contact.php" class="opacity-7 fs-15">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-6 col-lg-3 offset-lg-1 mb-30px mb-lg-0 text-center text-lg-start">
+                <span class="alt-font fw-600 d-block text-white mb-20px fs-16 text-uppercase ls-1px">Contact</span>
+                <ul class="list-unstyled mb-0" style="line-height:2.4">
+                    <li class="opacity-7 fs-14 mb-5px">Call us directly</li>
+                    <li class="mb-15px">
+                        <a href="tel:+919307958935" class="text-white fs-15">+91 93079 58935</a>
+                    </li>
+                    <li class="opacity-7 fs-14 mb-5px">Email support</li>
+                    <li>
+                        <a href="mailto:amey.kulkarni@navaacharan.com" class="text-white fs-15" style="word-break:break-all;">amey.kulkarni@navaacharan.com</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Divider -->
+        <div class="border-top border-color-transparent-white-light mt-10px"></div>
+
+        <!-- Bottom bar -->
+        <div class="row align-items-center py-20px">
+            <div class="col-12 col-md-6 text-center text-md-start mb-10px mb-md-0">
+                <p class="mb-0 fs-14 opacity-6">&copy; 2026 Navaacharan. All rights reserved.</p>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <ul class="list-unstyled d-inline-flex gap-4 mb-0">
+                    <li><a href="#" class="opacity-6 fs-14">Privacy Policy</a></li>
+                    <li><a href="#" class="opacity-6 fs-14">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!-- end footer -->
