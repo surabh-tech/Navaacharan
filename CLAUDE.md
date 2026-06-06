@@ -27,7 +27,7 @@ include 'header.php';      // fixed navbar + mobile panel
 <?php include 'footer.php'; ?>  // footer + <script> + closing </body></html>
 ```
 
-- [head.php](head.php) — full document head. Reads `$page_title` / `$page_description` / `$page_slug`. `$base` (= `/Navaacharan`) is defined here and reused by header/footer for absolute links.
+- [head.php](head.php) — full document head. Reads `$page_title` / `$page_description` / `$page_slug`. `$base` is defined here (derived from `dirname($_SERVER['SCRIPT_NAME'])`, so it auto-adapts to a subfolder like `/Navaacharan` locally or `` at the production web root) and reused by header/footer for asset/link URLs.
 - [header.php](header.php) — nav links live in the `$nav` array; the wordmark is text ("Navaacharan."), not an image. Active link is set from `$page_slug`.
 - [footer.php](footer.php) — dark footer, contact details, loads `js/main.js`, closes the document.
 

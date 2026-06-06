@@ -8,7 +8,9 @@
 $page_title       = $page_title       ?? 'Navaacharan — R&D & Software Solutions';
 $page_description = $page_description ?? 'Navaacharan is an R&D and software solutions firm bridging research and real-world application — AI/ML, software, embedded systems and applied research for industry, enterprise and government.';
 $page_slug        = $page_slug        ?? '';
-$base             = '/Navaacharan';
+// Base URL path, derived from where the site is served so it works both
+// under a subfolder (XAMPP: /Navaacharan) and at the web root (production: /).
+$base             = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
 ?>
 <!DOCTYPE html>
 <html lang="en">
