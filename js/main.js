@@ -28,9 +28,20 @@
   /* ---- Mobile nav ---- */
   var toggle = document.querySelector('.nav__toggle');
   var close  = document.querySelector('.nav__close');
-  function openNav()  { document.body.classList.add('nav-open'); }
-  function closeNav() { document.body.classList.remove('nav-open'); }
-  if (toggle) toggle.addEventListener('click', openNav);
+  var panel  = document.querySelector('.nav__panel');
+  function openNav()  {
+    document.body.classList.add('nav-open');
+    if (toggle) { toggle.setAttribute('aria-expanded', 'true'); toggle.setAttribute('aria-label', 'Close menu'); }
+    if (panel) panel.setAttribute('aria-hidden', 'false');
+  }
+  function closeNav() {
+    document.body.classList.remove('nav-open');
+    if (toggle) { toggle.setAttribute('aria-expanded', 'false'); toggle.setAttribute('aria-label', 'Open menu'); }
+    if (panel) panel.setAttribute('aria-hidden', 'true');
+  }
+  if (toggle) toggle.addEventListener('click', function () {
+    document.body.classList.contains('nav-open') ? closeNav() : openNav();
+  });
   if (close)  close.addEventListener('click', closeNav);
   document.querySelectorAll('.nav__panel a').forEach(function (a) {
     a.addEventListener('click', closeNav);
