@@ -37,6 +37,18 @@
   </div>
 </footer>
 
-<script src="<?= $base ?>/js/main.js"></script>
+<script src="<?= $base ?>/js/main.js?v=<?= $js_ver ?>"></script>
+<script>
+  // Failsafe: if main.js fails to initialise (e.g. a stale/cached script or JS error),
+  // never leave reveal-on-scroll content hidden.
+  addEventListener('load', function () {
+    setTimeout(function () {
+      if (!window.__navReady) {
+        var els = document.querySelectorAll('[data-reveal]');
+        for (var i = 0; i < els.length; i++) els[i].classList.add('is-in');
+      }
+    }, 800);
+  });
+</script>
 </body>
 </html>

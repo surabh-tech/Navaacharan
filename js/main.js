@@ -93,4 +93,7 @@
   /* ---- Footer year ---- */
   var y = document.querySelector('[data-year]');
   if (y) y.textContent = new Date().getFullYear();
+
+  /* Signal successful init so the inline failsafe in footer.php stands down. */
+  window.__navReady = true;
 })();

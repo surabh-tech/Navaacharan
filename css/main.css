@@ -312,16 +312,13 @@ em.ital { font-style: italic; }
 .hero .lead { max-width: 46ch; margin-top: 1.6rem; color: var(--ink-soft); }
 .hero__cta { margin-top: 2.4rem; display: flex; flex-wrap: wrap; gap: .9rem; }
 
-/* staggered headline reveal */
+/* staggered headline reveal — pure CSS, auto-plays under .js (no JS dependency) */
 .reveal-line { display: block; overflow: hidden; }
-.reveal-line > span {
-  display: block;
-  transform: translateY(105%);
-  transition: transform .9s var(--ease);
-}
-.loaded .reveal-line > span { transform: translateY(0); }
-.loaded .reveal-line:nth-child(2) > span { transition-delay: .08s; }
-.loaded .reveal-line:nth-child(3) > span { transition-delay: .16s; }
+.reveal-line > span { display: block; }
+.js .reveal-line > span { animation: nv-rise .9s var(--ease) both; }
+.js .reveal-line:nth-child(2) > span { animation-delay: .08s; }
+.js .reveal-line:nth-child(3) > span { animation-delay: .16s; }
+@keyframes nv-rise { from { transform: translateY(105%); } to { transform: translateY(0); } }
 
 /* metrics row beneath hero */
 .hero__metrics {
@@ -573,7 +570,8 @@ em.ital { font-style: italic; }
 .site-footer__bottom .legal { display: flex; gap: 1.4rem; }
 
 /* ------------------------------------------------------------- Reveal anim */
-[data-reveal] {
+/* Hidden initial state only applies when JS is active (.js); without JS, content shows. */
+.js [data-reveal] {
   opacity: 0;
   transform: translateY(14px);
   transition: opacity .7s var(--ease), transform .7s var(--ease);
@@ -587,7 +585,7 @@ em.ital { font-style: italic; }
 @media (prefers-reduced-motion: reduce) {
   [data-reveal], .reveal-line > span, .btn, .card, .tlink::after { transition: none !important; }
   [data-reveal] { opacity: 1; transform: none; }
-  .reveal-line > span { transform: none; }
+  .reveal-line > span, .js .reveal-line > span { animation: none !important; transform: none; }
 }
 
 /* ------------------------------------------------------------- Utilities   */

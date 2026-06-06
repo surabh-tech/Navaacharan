@@ -11,10 +11,15 @@ $page_slug        = $page_slug        ?? '';
 // Base URL path, derived from where the site is served so it works both
 // under a subfolder (XAMPP: /Navaacharan) and at the web root (production: /).
 $base             = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
+// Cache-busting versions — auto-update whenever the asset file changes,
+// so browsers never serve a stale CSS/JS from a previous deploy.
+$css_ver          = @filemtime(__DIR__ . '/css/main.css') ?: '1';
+$js_ver           = @filemtime(__DIR__ . '/js/main.js')  ?: '1';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>document.documentElement.classList.add('js');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= htmlspecialchars($page_title) ?></title>
@@ -43,6 +48,6 @@ $base             = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;450;500;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="<?= $base ?>/css/main.css">
+  <link rel="stylesheet" href="<?= $base ?>/css/main.css?v=<?= $css_ver ?>">
 </head>
 <body>
