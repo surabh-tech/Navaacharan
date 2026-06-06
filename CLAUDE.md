@@ -4,68 +4,56 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Running the site
 
-This is a PHP site served via XAMPP. Start Apache from the XAMPP control panel and visit `http://localhost/Navaacharan/`. There is no build step required to view the site — the pre-compiled CSS files in `css/` are already present.
+This is a hand-written PHP site served via XAMPP. Start Apache from the XAMPP control panel and visit `http://localhost/Navaacharan/`. **There is no build step** — CSS and JS are authored by hand and edited directly.
 
-## Build system (Gulp)
+## Design
 
-Styles are authored in SASS and compiled by Gulp. There is no `package.json` in the repo, so install dependencies manually before first use:
-
-```bash
-npm install gulp browser-sync gulp-concat gulp-uglify gulp-minify-css gulp-sourcemaps gulp-sass sass gulp-header
-```
-
-| Task | Command | Output |
-|------|---------|--------|
-| Watch + BrowserSync (dev) | `gulp` | Compiles all SASS, watches for changes |
-| Compile main styles | `gulp sass` | `css/style.css` and `css/style.min.css` |
-| Compile responsive styles | `gulp responsive` | `css/responsive.css` / `css/responsive.min.css` |
-| Compile icon styles | `gulp icon` | `css/icon.css` / `css/icon.min.css` |
-| Bundle vendor JS | `gulp concat-vendors` | `js/vendors.js` / `js/vendors.min.js` |
-
-After editing any `.scss` file in `sass/`, run the appropriate gulp task (or just `gulp`) to regenerate the CSS.
+Editorial / "Anthropic-style" look: warm ivory pages (`--ivory: #F7F4EE`) with a few dramatic near-black sections (`--black: #16130F`) for the hero, CTA bands and footer. One restrained warm **clay** accent (`--clay: #C05E3B`). Display headlines use **Fraunces** (serif), body copy uses **Inter** — both loaded from Google Fonts in [head.php](head.php). All design tokens live as CSS custom properties at the top of [css/main.css](css/main.css); change colours, fonts, spacing and radius there.
 
 ## Architecture
 
 ### PHP includes pattern
-Every page (e.g. `index.php`, `services.php`) follows the same structure:
-- `<?php include "head.php"; ?>` — `<head>` block with all CSS/font links
-- `<?php include "header.php"; ?>` — navbar
-- Page-specific HTML content
-- `<?php include "footer.php"; ?>` — footer
+Every page is a thin PHP file that sets a few variables, then includes three shared partials:
 
-To change the nav links or logo, edit [header.php](header.php). To change `<title>`, meta tags, or CSS imports, edit [head.php](head.php).
+```php
+<?php
+$page_title       = '…';   // <title> + OG title
+$page_description = '…';   // meta + OG description
+$page_slug        = 'home'; // marks the active nav link: home|about|services|industries|contact
+include 'head.php';        // <!DOCTYPE>, <head> (meta/fonts/CSS), opening <body>
+include 'header.php';      // fixed navbar + mobile panel
+?>
+<!-- page-specific sections here -->
+<?php include 'footer.php'; ?>  // footer + <script> + closing </body></html>
+```
 
-### CSS load order
-`head.php` loads CSS in this order:
-1. `css/vendors.min.css` — third-party component styles
-2. `css/icon.min.css` — icon font styles
-3. `css/style.css` (non-minified, used in dev)
-4. `css/responsive.css`
-5. `demos/startup/startup.css` — demo-specific overrides for this site
+- [head.php](head.php) — full document head. Reads `$page_title` / `$page_description` / `$page_slug`. `$base` (= `/Navaacharan`) is defined here and reused by header/footer for absolute links.
+- [header.php](header.php) — nav links live in the `$nav` array; the wordmark is text ("Navaacharan."), not an image. Active link is set from `$page_slug`.
+- [footer.php](footer.php) — dark footer, contact details, loads `js/main.js`, closes the document.
 
-The site uses `demos/startup/startup.css` as a thin override layer on top of the base theme.
+### Styles — `css/main.css`
+The **only** stylesheet. Single hand-written file, organised top-to-bottom: tokens → reset → typography → layout → components (header, hero, cards, steps, pillars, timeline, tech stack, contact form, footer) → reveal animations → utilities. No SASS, no Gulp, no vendor CSS.
 
-### SASS structure
-- `sass/style.scss` — main entry point, imports all element/component partials from `sass/elements/`, `sass/header/`, `sass/footer/`, etc.
-- `sass/responsive.scss` — responsive overrides (imports from `sass/theme-responsive/`)
-- `sass/_theme-vars.scss` — CSS custom properties: brand colors (`--base-color: #2946f3`), fonts (`--alt-font: 'Plus Jakarta Sans'`, `--primary-font: 'Inter'`)
-- `sass/_variables.scss` — SASS variables
+### JS — `js/main.js`
+Vanilla, no dependencies. Handles: hero load reveal (`body.loaded`), sticky-header solid state on scroll, mobile nav toggle, `IntersectionObserver` scroll reveals for `[data-reveal]` elements, and the contact-form AJAX submit. All animation respects `prefers-reduced-motion`.
 
-### JS
-- `js/main.js` — custom site JS
-- `js/vendors/` — individual vendor libraries (GSAP, Swiper, anime.js, Isotope, particles.js, jQuery plugins, etc.)
-- `js/vendors.js` — all vendors concatenated (generated by gulp)
-- Bootstrap 5.3.2 is loaded via CDN in `head.php`, not from `js/vendors/`
+### Animations
+- Add `data-reveal` (optionally `data-reveal-delay="1..4"`) to any element to fade-and-rise it into view on scroll.
+- The hero headline uses `.reveal-line > span` for a staggered load reveal.
+- Dark/light section rhythm is set with `.section--dark` / `.section--alt` classes.
 
 ### Pages
-| File | Route |
-|------|-------|
-| `index.php` | Home |
-| `who-we-are.php` | About |
-| `services.php` | Services listing |
-| `services-details.php` | Service detail |
-| `clients.php` | Clients |
-| `contact.php` | Contact form |
+| File | Route | Nav slug |
+|------|-------|----------|
+| `index.php` | Home | `home` |
+| `who-we-are.php` | About | `about` |
+| `services.php` | Services (+ tech stack) | `services` |
+| `industries.php` | Industries / sectors | `industries` |
+| `contact.php` | Contact + form | `contact` |
 
 ### Contact form / email
-The contact form posts to `email-templates/contact-form.php`, which uses PHPMailer (`email-templates/phpmailer/`). Configure the receiver email and optional SMTP/reCAPTCHA settings at the top of that file — the defaults are placeholders (`info@domain.com`, `YOUR_SECRET_KEY`).
+The contact form (`data-contact` in [contact.php](contact.php)) posts fields `name, email, phone, subject, comment` to [email-templates/contact-form.php](email-templates/contact-form.php), which sends via PHP `mail()` to `info@navaacharan.com` and returns JSON `{alert, message}`. `js/main.js` submits via `fetch` and renders the response inline in `.form__status`. Actual delivery depends on the local `mail()`/SMTP configuration.
+
+### Assets
+- `images/favicon.ico`, `images/apple-touch-icon-*.png` — referenced in [head.php](head.php).
+- `images/og.png` — 1200×630 social-share image referenced by the OG tags (add/replace as needed).

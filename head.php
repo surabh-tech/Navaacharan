@@ -1,36 +1,46 @@
+<?php
+/**
+ * Shared document head. A page sets these vars before including this file:
+ *   $page_title       — browser/tab + OG title
+ *   $page_description — meta + OG description
+ *   $page_slug        — marks the active nav link (home|about|services|industries|contact)
+ */
+$page_title       = $page_title       ?? 'Navaacharan — R&D & Software Solutions';
+$page_description = $page_description ?? 'Navaacharan is an R&D and software solutions firm bridging research and real-world application — AI/ML, software, embedded systems and applied research for industry, enterprise and government.';
+$page_slug        = $page_slug        ?? '';
+$base             = '/Navaacharan';
+?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-        <title>Navaacharan Labs</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="description" content="Navaacharan Labs is an IT firm specializing in IT services, research, and development projects to drive innovation and growth.">
-        <meta name="author" content="Navaacharan labs">
-        <meta name="robots" content="index, follow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><?= htmlspecialchars($page_title) ?></title>
+  <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
+  <meta name="author" content="Navaacharan">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#16130F">
 
-        <!-- Open Graph Meta -->
-        <meta property="og:title" content="Navaacharan Research Lab and IT Suppport  ">
-        <meta property="og:site_name" content="Navaacharan">
-        <meta property="og:description" content="Navaacharan Labs is an IT firm specializing in IT services, research, and development projects to drive innovation and growth.">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="">
-        <meta property="og:image" content="">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Navaacharan">
+  <meta property="og:title" content="<?= htmlspecialchars($page_title) ?>">
+  <meta property="og:description" content="<?= htmlspecialchars($page_description) ?>">
+  <meta property="og:image" content="<?= $base ?>/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
 
+  <!-- Favicon -->
+  <link rel="icon" href="<?= $base ?>/images/favicon-package/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="<?= $base ?>/images/favicon-package/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= $base ?>/images/favicon-package/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= $base ?>/images/favicon-package/favicon-16.png">
+  <link rel="apple-touch-icon" href="<?= $base ?>/images/favicon-package/apple-touch-icon.png">
 
+  <!-- Fonts: Fraunces (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;450;500;600&display=swap" rel="stylesheet">
 
-        <!-- favicon icon -->
-        <link rel="shortcut icon" href="images/labs/favicon.ico">
-        <link rel="apple-touch-icon" href="images/labs/favicon.ico">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/labs/favicon.ico">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/labs/favicon.ico">
-        <!-- google fonts preconnect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- style sheets and font icons -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/startup/startup.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    </head>
+  <link rel="stylesheet" href="<?= $base ?>/css/main.css">
+</head>
+<body>

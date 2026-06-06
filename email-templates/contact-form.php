@@ -18,7 +18,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-$to      = 'amey.kulkarni@navaacharan.com';
+$to      = 'info@navaacharan.com';
 $subject = $subj ? $subj : 'New enquiry from Navaacharan website';
 
 $body = "
@@ -41,5 +41,5 @@ $headers .= "Reply-To: {$name} <{$email}>\r\n";
 if (mail($to, $subject, $body, $headers)) {
     echo json_encode(['alert' => 'alert alert-success', 'message' => 'Your message has been sent successfully!']);
 } else {
-    echo json_encode(['alert' => 'alert alert-danger', 'message' => 'Could not send message. Please email us at amey.kulkarni@navaacharan.com directly.']);
+    echo json_encode(['alert' => 'alert alert-danger', 'message' => 'Could not send message. Please email us at info@navaacharan.com directly.']);
 }
