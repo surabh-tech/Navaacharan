@@ -1,7 +1,8 @@
 <?php
 $page_title       = 'Services — Navaacharan';
-$page_description = 'AI & Machine Learning, software development, embedded systems & IoT, and applied research — end-to-end, from architecture to deployment and ongoing support.';
+$page_description = 'AI & machine learning, software, embedded systems & IoT, applied research and cybersecurity — end-to-end, from architecture to deployment and ongoing support.';
 $page_slug        = 'services';
+$cyber_services   = require 'cyber-services.php';
 include 'head.php';
 include 'header.php';
 ?>
@@ -11,14 +12,14 @@ include 'header.php';
   <div class="container">
     <p class="eyebrow">Services</p>
     <h1 class="display">From the <em class="serif-i">first idea</em> to production and beyond.</h1>
-    <p class="lead">Web, mobile, AI, embedded and applied research — designed for scale, performance and long-term maintainability.</p>
+    <p class="lead">Web, mobile, AI, embedded and applied research — designed for scale, performance and maintainability, then tested, audited and secured.</p>
   </div>
 </section>
 
 <!-- ====================================================== Core categories -->
 <section class="section">
   <div class="container">
-    <div class="grid grid--2">
+    <div class="grid grid--5">
       <article class="card" data-reveal>
         <span class="idx">01</span>
         <h3 class="h3">AI &amp; Machine Learning</h3>
@@ -39,6 +40,36 @@ include 'header.php';
         <h3 class="h3">Applied Research &amp; Development</h3>
         <p>Bridging the gap between cutting-edge research and real-world business impact, with production-ready outcomes.</p>
       </article>
+      <article class="card" data-reveal data-reveal-delay="1">
+        <span class="idx">05</span>
+        <h3 class="h3">Cybersecurity</h3>
+        <p>VAPT, security audits, compliance readiness and virtual CISO services that find weaknesses before attackers do.</p>
+        <a class="tlink mt-sm" href="<?= $base ?>/cybersecurity.php">Explore cybersecurity <span class="arw">&rarr;</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== Cybersecurity -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow">Cybersecurity</p>
+      <h2 class="h2">We build technology — and we help you secure it.</h2>
+      <p class="lead" style="max-width:54ch">The same team that engineers AI, software and embedded systems tests, audits and hardens them.</p>
+    </div>
+    <div class="grid grid--4">
+      <?php foreach ($cyber_services as $i => $s): ?>
+        <article class="card card--link" data-reveal<?= $i % 4 ? ' data-reveal-delay="' . $i % 4 . '"' : '' ?>>
+          <span class="idx"><?= sprintf('%02d', $i + 1) ?></span>
+          <h3 class="h3"><?= htmlspecialchars($s['title']) ?></h3>
+          <p><?= htmlspecialchars($s['line']) ?></p>
+          <a class="tlink" href="<?= $base ?>/cybersecurity.php#<?= $s['slug'] ?>">Learn more <span class="arw">&rarr;</span></a>
+        </article>
+      <?php endforeach; ?>
+    </div>
+    <div class="mt-md" data-reveal>
+      <a class="btn btn--light" href="<?= $base ?>/cybersecurity.php">Explore cybersecurity <span class="arw">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -56,7 +87,7 @@ include 'header.php';
       <article class="card" data-reveal data-reveal-delay="2"><h3 class="h3">AI-Driven Products</h3><p>Intelligent products with LLMs, computer vision and predictive analytics at the core.</p></article>
       <article class="card" data-reveal><h3 class="h3">IoT &amp; Embedded</h3><p>Low-level systems, firmware and IoT integrations for industrial and medical use-cases.</p></article>
       <article class="card" data-reveal data-reveal-delay="1"><h3 class="h3">Cloud &amp; DevOps</h3><p>Cloud-native architectures on AWS, Azure and GCP with CI/CD and containerised deployments.</p></article>
-      <article class="card" data-reveal data-reveal-delay="2"><h3 class="h3">Cyber Security</h3><p>Security assessments, vulnerability testing and hardened system design for critical infrastructure.</p></article>
+      <article class="card" data-reveal data-reveal-delay="2"><h3 class="h3">Cybersecurity</h3><p>Security assessments, vulnerability testing and hardened system design for critical infrastructure.</p></article>
     </div>
   </div>
 </section>

@@ -2,6 +2,8 @@
 $page_title       = 'Contact — Navaacharan';
 $page_description = 'Get in touch with Navaacharan. Chhatrapati Sambhajinagar, Maharashtra. +91 93079 58935 · info@navaacharan.com';
 $page_slug        = 'contact';
+$cyber_services   = require 'cyber-services.php';
+$service          = $_GET['service'] ?? '';   // ?service=<slug> preselects the dropdown
 include 'head.php';
 include 'header.php';
 ?>
@@ -56,6 +58,24 @@ include 'header.php';
               <label for="subject">Subject</label>
               <input type="text" id="subject" name="subject" placeholder="How can we help?">
             </div>
+          </div>
+          <div class="field">
+            <label for="service">Service of interest</label>
+            <select id="service" name="service">
+              <option value="">Select a service (optional)</option>
+              <optgroup label="Engineering &amp; R&amp;D">
+                <option>AI &amp; Machine Learning</option>
+                <option>Software Development</option>
+                <option>Embedded Systems &amp; IoT</option>
+                <option>Applied R&amp;D</option>
+              </optgroup>
+              <optgroup label="Cybersecurity">
+                <?php foreach ($cyber_services as $s): ?>
+                  <option<?= $service === $s['slug'] ? ' selected' : '' ?>><?= htmlspecialchars($s['short']) ?></option>
+                <?php endforeach; ?>
+              </optgroup>
+              <option>Other</option>
+            </select>
           </div>
           <div class="field">
             <label for="comment">Message</label>

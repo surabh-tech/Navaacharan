@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Navaacharan — Where research meets real-world innovation';
-$page_description = 'Navaacharan is an R&D and software solutions firm bridging research and real-world application — AI/ML, software development, embedded systems and applied research for industry, enterprise and government.';
+$page_title       = 'Navaacharan — R&D, Software & Cybersecurity Solutions';
+$page_description = 'AI/ML, software, embedded systems, applied R&D and cybersecurity services — VAPT, audits and compliance — for industry, enterprise and government.';
 $page_slug        = 'home';
 include 'head.php';
 include 'header.php';
@@ -34,11 +34,11 @@ include 'header.php';
   <div class="container">
     <div class="sec-head" data-reveal>
       <p class="eyebrow">What we do</p>
-      <h2 class="h2">Four disciplines, one standard of rigour.</h2>
+      <h2 class="h2">Five disciplines, one standard of rigour.</h2>
       <p class="lead" style="max-width:54ch">From applied research to production systems — we design, build and support technology that holds up in the real world.</p>
     </div>
 
-    <div class="grid">
+    <div class="grid grid--5">
       <article class="card card--link" data-reveal>
         <span class="idx">01</span>
         <h3 class="h3">AI &amp; Machine Learning</h3>
@@ -62,6 +62,12 @@ include 'header.php';
         <h3 class="h3">Applied R&amp;D</h3>
         <p>Domain-specific research that produces actionable insights and production-ready outcomes.</p>
         <a class="tlink" href="<?= $base ?>/services.php">Learn more <span class="arw">&rarr;</span></a>
+      </article>
+      <article class="card card--link" data-reveal data-reveal-delay="4">
+        <span class="idx">05</span>
+        <h3 class="h3">Cybersecurity</h3>
+        <p>VAPT, security audits, compliance readiness and virtual CISO services that find weaknesses before attackers do.</p>
+        <a class="tlink" href="<?= $base ?>/cybersecurity.php">Learn more <span class="arw">&rarr;</span></a>
       </article>
     </div>
   </div>
@@ -117,9 +123,23 @@ include 'header.php';
         <a class="tlink mt-md" href="<?= $base ?>/industries.php">Explore the industries we serve <span class="arw">&rarr;</span></a>
       </div>
       <div class="flow" data-reveal data-reveal-delay="1">
-        <p class="lead" style="max-width:none">Drone &amp; aerospace engineering. Automotive &amp; industry. Infrastructure &amp; construction. Marketing &amp; media. Government &amp; administration. Enterprise &amp; SaaS.</p>
+        <p class="lead" style="max-width:none">Drone &amp; aerospace engineering. Automotive &amp; industry. Infrastructure &amp; construction. Marketing &amp; media. Government &amp; administration. Enterprise &amp; SaaS. Banking, finance &amp; insurance. Healthcare &amp; education.</p>
         <p class="muted">Wherever the work is demanding, reliability matters most — and that's where we do our best work.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================== Trust band -->
+<section class="section section--dark">
+  <div class="container split split--center">
+    <div data-reveal>
+      <p class="eyebrow">Cybersecurity</p>
+      <h2 class="h2">We build technology — and we help you secure it.</h2>
+    </div>
+    <div class="flow" data-reveal data-reveal-delay="1">
+      <p class="lead" style="max-width:none">The same team that engineers AI, software and embedded systems tests, audits and hardens them. We know how systems are built, so we know where they break.</p>
+      <p><a class="btn btn--light" href="<?= $base ?>/cybersecurity.php">Explore cybersecurity <span class="arw">&rarr;</span></a></p>
     </div>
   </div>
 </section>

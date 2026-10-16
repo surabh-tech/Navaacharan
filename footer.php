@@ -12,6 +12,7 @@
           <li><a href="<?= $base ?>/index.php">Home</a></li>
           <li><a href="<?= $base ?>/who-we-are.php">Who We Are</a></li>
           <li><a href="<?= $base ?>/services.php">Services</a></li>
+          <li><a href="<?= $base ?>/cybersecurity.php">Cybersecurity</a></li>
           <li><a href="<?= $base ?>/industries.php">Industries</a></li>
           <li><a href="<?= $base ?>/contact.php">Contact</a></li>
         </ul>

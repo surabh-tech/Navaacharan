@@ -11,7 +11,11 @@ $name    = trim(strip_tags($_POST['name']    ?? ''));
 $email   = trim(strip_tags($_POST['email']   ?? ''));
 $phone   = trim(strip_tags($_POST['phone']   ?? ''));
 $subj    = trim(strip_tags($_POST['subject'] ?? ''));
+$service = trim(strip_tags($_POST['service'] ?? ''));
 $comment = trim(strip_tags($_POST['comment'] ?? ''));
+
+// These end up in mail headers (Reply-To / Subject): drop CR/LF so they can't inject extra headers.
+[$name, $subj, $service] = str_replace(["\r", "\n"], ' ', [$name, $subj, $service]);
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo json_encode(['alert' => 'alert-danger', 'message' => 'Please enter a valid email address.']);
@@ -20,6 +24,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 $to      = 'info@navaacharan.com';
 $subject = $subj ? $subj : 'New enquiry from Navaacharan website';
+if ($service) $subject = "[{$service}] {$subject}";
 
 $body = "
 <html><body style='font-family:Arial,sans-serif;font-size:14px;color:#333;'>
@@ -28,8 +33,9 @@ $body = "
   <tr style='background:#f9f9f9;'><td width='100'><strong>Name</strong></td><td>{$name}</td></tr>
   <tr><td><strong>Email</strong></td><td><a href='mailto:{$email}'>{$email}</a></td></tr>
   <tr style='background:#f9f9f9;'><td><strong>Phone</strong></td><td>" . ($phone ?: '—') . "</td></tr>
-  <tr><td><strong>Subject</strong></td><td>" . ($subj ?: '—') . "</td></tr>
-  <tr style='background:#f9f9f9;'><td><strong>Message</strong></td><td>" . nl2br($comment) . "</td></tr>
+  <tr><td><strong>Service</strong></td><td>" . ($service ?: '—') . "</td></tr>
+  <tr style='background:#f9f9f9;'><td><strong>Subject</strong></td><td>" . ($subj ?: '—') . "</td></tr>
+  <tr><td><strong>Message</strong></td><td>" . nl2br($comment) . "</td></tr>
 </table>
 </body></html>";
 

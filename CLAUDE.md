@@ -19,7 +19,7 @@ Every page is a thin PHP file that sets a few variables, then includes three sha
 <?php
 $page_title       = '…';   // <title> + OG title
 $page_description = '…';   // meta + OG description
-$page_slug        = 'home'; // marks the active nav link: home|about|services|industries|contact
+$page_slug        = 'home'; // marks the active nav link: home|about|services|cybersecurity|industries|contact
 include 'head.php';        // <!DOCTYPE>, <head> (meta/fonts/CSS), opening <body>
 include 'header.php';      // fixed navbar + mobile panel
 ?>
@@ -30,6 +30,7 @@ include 'header.php';      // fixed navbar + mobile panel
 - [head.php](head.php) — full document head. Reads `$page_title` / `$page_description` / `$page_slug`. `$base` is defined here (derived from `dirname($_SERVER['SCRIPT_NAME'])`, so it auto-adapts to a subfolder like `/Navaacharan` locally or `` at the production web root) and reused by header/footer for asset/link URLs.
 - [header.php](header.php) — nav links live in the `$nav` array; the wordmark is text ("Navaacharan."), not an image. Active link is set from `$page_slug`.
 - [footer.php](footer.php) — dark footer, contact details, loads `js/main.js`, closes the document.
+- [cyber-services.php](cyber-services.php) — `return`s the 8 cybersecurity services (slug, title, dropdown label, one-liner, detail copy, "what's included"). Pages load it with `$cyber_services = require 'cyber-services.php';` — used by `cybersecurity.php` (cards + detail blocks), `services.php` (summary cards) and `contact.php` (service dropdown). Edit service copy here, not in the pages.
 
 ### Styles — `css/main.css`
 The **only** stylesheet. Single hand-written file, organised top-to-bottom: tokens → reset → typography → layout → components (header, hero, cards, steps, pillars, timeline, tech stack, contact form, footer) → reveal animations → utilities. No SASS, no Gulp, no vendor CSS.
@@ -40,20 +41,21 @@ Vanilla, no dependencies. Handles: hero load reveal (`body.loaded`), sticky-head
 ### Animations
 - Add `data-reveal` (optionally `data-reveal-delay="1..4"`) to any element to fade-and-rise it into view on scroll.
 - The hero headline uses `.reveal-line > span` for a staggered load reveal.
-- Dark/light section rhythm is set with `.section--dark` / `.section--alt` classes.
+- Dark/light section rhythm is set with `.section--dark` / `.section--alt` classes. `.section--dark` is reserved for cybersecurity content; everything else alternates ivory / `.section--alt`. Cybersecurity is presented as an established discipline — don't frame it as new (no "New" badges or launch announcements).
 
 ### Pages
 | File | Route | Nav slug |
 |------|-------|----------|
 | `index.php` | Home | `home` |
 | `who-we-are.php` | About | `about` |
-| `services.php` | Services (+ tech stack) | `services` |
-| `industries.php` | Industries / sectors | `industries` |
+| `services.php` | Services (+ cybersecurity summary, tech stack) | `services` |
+| `cybersecurity.php` | Cybersecurity landing page (services, detail blocks, FAQs) | `cybersecurity` |
+| `industries.php` | Industries / sectors (+ security line per sector) | `industries` |
 | `contact.php` | Contact + form | `contact` |
 
 ### Contact form / email
-The contact form (`data-contact` in [contact.php](contact.php)) posts fields `name, email, phone, subject, comment` to [email-templates/contact-form.php](email-templates/contact-form.php), which sends via PHP `mail()` to `info@navaacharan.com` and returns JSON `{alert, message}`. `js/main.js` submits via `fetch` and renders the response inline in `.form__status`. Actual delivery depends on the local `mail()`/SMTP configuration.
+The contact form (`data-contact` in [contact.php](contact.php)) posts fields `name, email, phone, subject, service, comment` to [email-templates/contact-form.php](email-templates/contact-form.php), which sends via PHP `mail()` to `info@navaacharan.com` and returns JSON `{alert, message}`. `js/main.js` submits via `fetch` and renders the response inline in `.form__status`. Actual delivery depends on the local `mail()`/SMTP configuration.
 
 ### Assets
-- `images/favicon.ico`, `images/apple-touch-icon-*.png` — referenced in [head.php](head.php).
+- `images/favicon-package/` — navy "N" mark: `favicon.svg`, `favicon.ico` (16/32/48), `favicon-16/32/48/512.png`, `apple-touch-icon.png` (180, full-bleed). Linked from [head.php](head.php) with a `?v=` cache-buster (`$icon_ver`, the mtime of `favicon.svg`).
 - `images/og.png` — 1200×630 social-share image referenced by the OG tags (add/replace as needed).

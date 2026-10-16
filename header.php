@@ -1,11 +1,12 @@
 <?php
 /** Site navigation. Relies on $page_slug + $base set in head.php. */
 $nav = [
-  'home'       => ['index.php',        'Home'],
-  'about'      => ['who-we-are.php',   'Who We Are'],
-  'services'   => ['services.php',     'Services'],
-  'industries' => ['industries.php',   'Industries'],
-  'contact'    => ['contact.php',      'Contact'],
+  'home'          => ['index.php',         'Home'],
+  'about'         => ['who-we-are.php',    'Who We Are'],
+  'services'      => ['services.php',      'Services'],
+  'cybersecurity' => ['cybersecurity.php', 'Cybersecurity'],
+  'industries'    => ['industries.php',    'Industries'],
+  'contact'       => ['contact.php',       'Contact'],
 ];
 ?>
 <header class="site-header">

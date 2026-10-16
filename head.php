@@ -3,10 +3,10 @@
  * Shared document head. A page sets these vars before including this file:
  *   $page_title       — browser/tab + OG title
  *   $page_description — meta + OG description
- *   $page_slug        — marks the active nav link (home|about|services|industries|contact)
+ *   $page_slug        — marks the active nav link (home|about|services|cybersecurity|industries|contact)
  */
-$page_title       = $page_title       ?? 'Navaacharan — R&D & Software Solutions';
-$page_description = $page_description ?? 'Navaacharan is an R&D and software solutions firm bridging research and real-world application — AI/ML, software, embedded systems and applied research for industry, enterprise and government.';
+$page_title       = $page_title       ?? 'Navaacharan — R&D, Software & Cybersecurity Solutions';
+$page_description = $page_description ?? 'AI/ML, software, embedded systems, applied R&D and cybersecurity services — VAPT, audits and compliance — for industry, enterprise and government.';
 $page_slug        = $page_slug        ?? '';
 // Base URL path, derived from where the site is served so it works both
 // under a subfolder (XAMPP: /Navaacharan) and at the web root (production: /).
@@ -15,6 +15,7 @@ $base             = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
 // so browsers never serve a stale CSS/JS from a previous deploy.
 $css_ver          = @filemtime(__DIR__ . '/css/main.css') ?: '1';
 $js_ver           = @filemtime(__DIR__ . '/js/main.js')  ?: '1';
+$icon_ver         = @filemtime(__DIR__ . '/images/favicon-package/favicon.svg') ?: '1';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,11 +38,11 @@ $js_ver           = @filemtime(__DIR__ . '/js/main.js')  ?: '1';
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- Favicon -->
-  <link rel="icon" href="<?= $base ?>/images/favicon-package/favicon.ico" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="<?= $base ?>/images/favicon-package/favicon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="<?= $base ?>/images/favicon-package/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="<?= $base ?>/images/favicon-package/favicon-16.png">
-  <link rel="apple-touch-icon" href="<?= $base ?>/images/favicon-package/apple-touch-icon.png">
+  <link rel="icon" href="<?= $base ?>/images/favicon-package/favicon.ico?v=<?= $icon_ver ?>" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="<?= $base ?>/images/favicon-package/favicon.svg?v=<?= $icon_ver ?>">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= $base ?>/images/favicon-package/favicon-32.png?v=<?= $icon_ver ?>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= $base ?>/images/favicon-package/favicon-16.png?v=<?= $icon_ver ?>">
+  <link rel="apple-touch-icon" href="<?= $base ?>/images/favicon-package/apple-touch-icon.png?v=<?= $icon_ver ?>">
 
   <!-- Fonts: Fraunces (display) + Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
